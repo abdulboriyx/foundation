@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  /* max-width: 1200px; */
+  background-color: #5086de;
+
+}
+.navbar-img {
+  width: 100%;
+  height: 500px;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 20%;
+  padding: 20px 0px;
+}
+.navbar-list-list {
+  margin-left: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+.navbar-list-list a {
+  text-decoration: none;
+  color: #f2f1d8;
+  }
