@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta char'set="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>foundation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +12,12 @@
 </head>
 <body>
 <div id="navbar">
-  <!-- <img class="navbar-img" src="https://t4.ftcdn.net/jpg/04/17/78/49/360_F_417784975_igbNzEo84A9VrPIafpJ6hoUDoCVJ656e.jpg" alt="#"> -->
+  <div class="navbar-container">
+<a class="icon-link" href="high-school.html"><img src="https://i.pinimg.com/474x/9c/03/37/9c0337a93dae84368812341bd2fcd822.jpg" alt="icon" class="saturn-icon"></a>
+
 <ul class="navbar-list">
-  <li class="navbar-list-list"><a href="#">Home</a></li>
-  <li class="navbar-list-list"><a href="#">Courses</a></li>
+  <li class="navbar-list-list"><a href="high-school.html">Home</a></li>
+  <li class="navbar-list-list"><a href="#courses">Courses</a></li>
   <li class="navbar-list-list"><a href="#">Contacts</a></li>
 
 <li class="navbar-list-list">
@@ -28,32 +30,38 @@
 </li>
 </ul>
 </div>
+</div>
 
 <div class="header">
   <h1 class="header-header">Welcome to Saturn!</h1>
-  <p class="header-text">Improve your fundamental knowledge on a variety of topics!</p>
+  <p class="header-text">Knowledge is liberty!</p>
 </div>
 
 <div id="background">
-  <div class="container">
 
 <div class="slider">
-  <!-- Philosophy image -->
-  <img id="slide-philosophy" class="background-img" src="https://www.greeknewsagenda.gr/wp-content/uploads/sites/2/2020/11/Philosophers.jpg" alt="#">
+  <!-- slide zero -->
+  <div class="slide">
+  <img id="slide-zero-img" src="https://c02.purpledshub.com/uploads/sites/41/2019/10/GettyImages-460712793-769fd3a.jpg" alt="">
 
-  <!-- Physics image -->
-  <img id="slide-physics" class="background-img" src="https://0utwqfl7.cdn.imgeng.in/explore-academics/programs/images/undergraduate/henson/physicsmajorMH.jpg" alt="img">
+<!-- slide one -->
+  <img src="https://www.greeknewsagenda.gr/wp-content/uploads/sites/2/2020/11/Philosophers.jpg" alt="#" id="slide-one-img">
 
-  <!-- Astronomy Image -->
-  <img id="slide-astronomy" class="background-img" src="https://science.nasa.gov/wp-content/uploads/2023/07/pia06890-our-solar-system-banner-1920x640-1.jpg" alt="#">
+<!-- slide two -->
+  <img src="https://media.evz.ro/wp-content/uploads/2008/01/cristofor-columb-a-adus-sifilisul-din-america.jpg" alt="#" id="slide-two-img">
 
-  <!-- Politics image -->
-  <img id="slide-politics" class="background-img" src="https://blog.politics.ox.ac.uk/wp-content/uploads/2023/05/visual-politics-scaled.jpg" alt="#">
+<!-- slide three -->
+  <img src="https://npr.brightspotcdn.com/dims4/default/9e33b29/2147483647/strip/true/crop/1221x814+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F14%2F26552ca2493db5299a66bb363f2d%2Fistock-political-speech.jpeg" alt="#" id="slide-three-img">
 </div>
 
+<div class="slider-nav">
+  <a href="#slide-zero-img" class="slider-nav-link"></a>
+  <a href="#slide-one-img" class="slider-nav-link"></a>
+  <a href="#slide-two-img" class="slider-nav-link"></a>
+  <a href="#slide-three-img" class="slider-nav-link"></a>
+</div>
 
-  </div>
-
+</div>
 </div>
 
 <div class="header">
@@ -61,117 +69,138 @@
 </div>
 
 
-<!-- Courses -->
-
-<div id="courses">
-  <div class="courses-container">
-    <!-- Philosophy -->
-    <div class="course philosophy-course">
-      <a class="course-link philosophy-link" href="#"><img class="course-img philosophy-img" src="https://as1.ftcdn.net/v2/jpg/04/54/30/74/1000_F_454307465_mb67kxOu6yUgTktvjc97R3zGOcTbEpgd.jpg" alt="#">
-      <h3 class="course-header philosophy-header">Philosophy</h3>
+  <!-- Courses -->
+  <div id="courses">
+    <div class="courses-container">
+  <!-- Maths -->
+  <div class="course maths-course">
+    <a href="../foundation/courses/math/math.html" class="course-link maths-link">
+      <img class="course-img maths-img" src="https://media.istockphoto.com/id/1219382595/vector/math-equations-written-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=ShVWsMm2SNCNcIjuWGtpft0kYh5iokCzu0aHPC2fV4A=" alt="maths-img">
+      <h3 class="course-header maths-header">Maths</h3>
     </a>
-    </div>
+  </div>
 
-    <!-- Physics -->
-    <div class="course physics-course">
-      <a href="#" class="course-link physics-link">
-        <img class="course-img physics-img" src="https://0utwqfl7.cdn.imgeng.in/explore-academics/programs/images/undergraduate/henson/physicsmajorMH.jpg" alt="physics img">
-        <h3 class="course-header physics-header">Physics</h3>
+  <!-- Physics -->
+  <div class="course physics-course">
+    <a href="../foundation/courses/physics/physics.html" class="course-link physics-link">
+      <img class="course-img physics-img" src="https://0utwqfl7.cdn.imgeng.in/explore-academics/programs/images/undergraduate/henson/physicsmajorMH.jpg" alt="physics img">
+      <h3 class="course-header physics-header">Physics</h3>
 
 
+    </a>
+  </div>
+
+  <!-- Biology -->
+  <div class="course biology-course">
+    <a href="../foundation/courses/biology/biology.html" class="course-link biology-link">
+      <img class="course-img biology-img" src="https://img.freepik.com/free-vector/chemistry-equipment-sketch-seamless_98292-4695.jpg" alt="biology-img">
+      <h3 class="course-header biology-header">Biology</h3>
+    </a>
+  </div>
+
+
+  <!-- Chemistry -->
+  <div class="course chemistry-course">
+    <a href="../foundation/courses/chemistry/chemistry.html" class="course-link chemistry-link">
+      <img class="course-img chemistry-img" src="https://www.shutterstock.com/image-vector/beautiful-chemistry-vector-seamless-pattern-600nw-207946306.jpg" alt="chemistry img">
+      <h3 class="course-header chemistry-header">Chemistry</h3>
+    </a>
+  </div>
+
+  <!-- Astronomy -->
+  <div class="course astronomy-course">
+    <a href="../foundation/courses/astronomy/astronomy.html" class="course-link astronomy-link">
+      <img class="course-img astronomy-img" src="https://i.pinimg.com/originals/ac/72/05/ac720577f62a9bef7b44199bcbc9bd7c.jpg" alt="astronomy-img">
+      <h3 class="course-header astronomy-header">Astronomy</h3>
+    </a>
+  </div>
+
+  <!-- Geography -->
+  <div class="course geography-course">
+    <a href="../foundation/courses/geography/geography.html" class="course-link geography-link">
+      <img src="https://i.pinimg.com/originals/1b/86/48/1b86489ad029d407168e2a9bfbef48db.jpg" alt="#" class="course-img engineering-img">
+      <h3 class="course-header geography-header">Geography</h3>
+    </a>
+  </div>
+
+
+  <!-- CS -->
+  <div class="course cs-course">
+    <a href="../foundation/courses/cs/cs.html" class="course-link cs-link">
+      <img class="course-img cs-img" src="https://i.pinimg.com/736x/0f/80/69/0f8069e389f30ec39d0cd77fc036213e.jpg" alt="cs-img">
+      <h3 class="course-header cs-header">Computer Science</h3>
+    </a>
+  </div>
+
+
+  <!-- Economics -->
+  <div class="course econ-course">
+    <a href="../foundation/courses/econ/econ.html" class="course-link econ-link">
+      <img class="course-img econ-img" src="https://i.pinimg.com/736x/cc/c7/75/ccc77529871169933edf9ae16b6801b7.jpg" alt="econ-img">
+      <h3 class="course-header econ-header">Economics</h3>
+    </a>
+  </div>
+
+  <!-- Politics -->
+  <div class="course politics-course">
+    <a href="../foundation/courses/polisci/polisci.html" class="course-link politics-link">
+      <img class="course-img politics-img" src="https://as2.ftcdn.net/v2/jpg/03/98/08/73/1000_F_398087301_CBUWCZwvKr4lxw8qxuDeEPiTGLz9WB2Y.jpg" alt="politics-img">
+      <h3 class="course-header politics-header">Politics</h3>
+    </a>
+  </div>
+
+
+
+      <!-- Philosophy -->
+      <div class="course philosophy-course">
+        <a class="course-link philosophy-link" href="../foundation/courses/philosophy/philosophy.html"><img class="course-img philosophy-img" src="https://cssh.northeastern.edu/philosophy/wp-content/uploads/sites/11/2020/03/philosophy.jpg" alt="#">
+        <h3 class="course-header philosophy-header">Philosophy</h3>
       </a>
+      </div>
+
+
+
+  <!-- History  -->
+  <div class="course history-course">
+    <a href="../foundation/courses/history/history.html" class="course-link history-link">
+      <img src="https://englishpluspodcast.com/wp-content/uploads/2022/07/Episode-685-Shocking-Events-That-Made-History-Episode-5.jpg" alt="history-img" class="course-img history-img">
+      <h3 class="course-header history-header">History</h3>
+    </a>
+  </div>
+
+  <!-- TOP 100 -->
+  <div class="course top-hundred-course">
+    <a href="../foundation/courses/people/people.html" class="course-link top-hundred-link">
+      <img class="course-img top-hundred-img" src="https://media.licdn.com/dms/image/C5612AQHf36iWTgGh7Q/article-cover_image-shrink_720_1280/0/1596454418267?e=2147483647&v=beta&t=_ENPj8SQmX6kGoyimBeh2BWPhk61vCes0x093SOjkjA" alt="top-hundred-img">
+      <h3 class="course-header top-hundred-header">GODFATHERS</h3>
+    </a>
+  </div>
+
+
+
+
+</div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="footer-container">
+    <a class="icon-link" href="#"><img src="https://i.pinimg.com/474x/9c/03/37/9c0337a93dae84368812341bd2fcd822.jpg" alt="icon" class="saturn-icon"></a>
+
+    <ul class="footer-list">
+      <li class="footer-list-list"><a href="#">Home</a></li>
+      <li class="footer-list-list"><a href="#">Courses</a></li>
+      <li class="footer-list-list"><a href="#">Contacts</a></li>
+
+    </ul>
     </div>
-<!-- Biology -->
-<div class="course biology-course">
-  <a href="#" class="course-link biology-link">
-    <img class="course-img biology-img" src="https://static.vecteezy.com/system/resources/previews/027/014/004/original/biology-doodle-set-collection-of-hand-drawn-elements-science-biology-illustration-isolated-on-a-white-background-vector.jpg" alt="biology-img">
-    <h3 class="course-header biology-header">Biology</h3>
-  </a>
-</div>
-
-<!-- Astronomy -->
-<div class="course astronomy-course">
-  <a href="#" class="course-link astronomy-link">
-    <img class="course-img astronomy-img" src="https://i.pinimg.com/originals/ac/72/05/ac720577f62a9bef7b44199bcbc9bd7c.jpg" alt="astronomy-img">
-    <h3 class="course-header astronomy-header">Astronomy</h3>
-  </a>
-</div>
-
-<!-- Maths -->
-<div class="course maths-course">
-  <a href="#" class="course-link maths-link">
-    <img class="course-img maths-img" src="https://media.istockphoto.com/id/1219382595/vector/math-equations-written-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=ShVWsMm2SNCNcIjuWGtpft0kYh5iokCzu0aHPC2fV4A=" alt="maths-img">
-    <h3 class="course-header maths-header">Maths</h3>
-  </a>
-</div>
-
-<!-- Chemistry -->
-<div class="course chemistry-course">
-  <a href="#" class="course-link chemistry-link">
-    <img class="course-img chemistry-img" src="https://img.freepik.com/free-vector/science-lab-drawing-design_23-2148484567.jpg" alt="chemistry img">
-    <h3 class="course-header chemistry-header">Chemistry</h3>
-  </a>
-</div>
 
 
-<!-- Economics -->
-<div class="course econ-course">
-  <a href="#" class="course-link econ-link">
-    <img class="course-img econ-img" src="https://i.pinimg.com/736x/cc/c7/75/ccc77529871169933edf9ae16b6801b7.jpg" alt="econ-img">
-    <h3 class="course-header econ-header">Economics</h3>
-  </a>
-</div>
+</footer>
 
-<!-- Politics -->
-<div class="course politics-course">
-  <a href="#" class="course-link politics-link">
-    <img class="course-img politics-img" src="https://as2.ftcdn.net/v2/jpg/03/98/08/73/1000_F_398087301_CBUWCZwvKr4lxw8qxuDeEPiTGLz9WB2Y.jpg" alt="politics-img">
-    <h3 class="course-header politics-header">Politics</h3>
-  </a>
-</div>
-
-<!-- History  -->
-<div class="course history-course">
-  <a href="#" class="course-link history-link">
-    <img src="https://englishpluspodcast.com/wp-content/uploads/2022/07/Episode-685-Shocking-Events-That-Made-History-Episode-5.jpg" alt="history-img" class="course-img history-img">
-    <h3 class="course-header history-header">History</h3>
-  </a>
-</div>
-
-<!-- Religions -->
-<div class="course religions-course">
-  <a href="#" class="course-link religions-link">
-    <img class="course-img religions-img" src="https://t4.ftcdn.net/jpg/02/32/24/37/360_F_232243738_ERnPHlRebTQJy3e6LQSjuIQ26clwcLpg.jpg" alt="religions-img">
-    <h3 class="course-header religions-header">Religions</h3>
-  </a>
-</div>
-
-<!-- CS -->
-<div class="course cs-course">
-  <a href="#" class="course-link cs-link">
-    <img class="course-img cs-img" src="https://i.pinimg.com/736x/0f/80/69/0f8069e389f30ec39d0cd77fc036213e.jpg" alt="cs-img">
-    <h3 class="course-header cs-header">Computer Science</h3>
-  </a>
-</div>
-
-<!-- Engineering -->
-<div class="course engineering-course">
-  <a href="#" class="course-link engineering-link">
-    <img src="https://cdn.dribbble.com/userupload/5190081/file/original-c2bed07dc78f9f1d356772d100fd7944.jpg?resize=400x0" alt="#" class="course-img engineering-img">
-    <h3 class="course-header engineering-header">Engineering</h3>
-  </a>
-</div>
-
-
-
-
-
-</div>
-</div>
-
-</div>
-
-
+<script src="high-school.js"></script>
 
 </body>
 </html>
