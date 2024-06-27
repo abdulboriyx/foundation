@@ -1,0 +1,577 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+@font-face {
+  font-family: 'iFont-sf-dmedium';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iFont-sf-dregular';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iFont-sf-rmedium';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Medium.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iFont-sf-rregular';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iFont-sf-tmedium';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Medium.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'iFont-sf-tregular';
+  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body */
+body {
+  background-image: url('../img/math-bg-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  background-blend-mode: lighten;
+  color: #f0f0f0;
+}
+
+#navbar {
+  /* max-width: 1200px; */
+  background-color: #224e42;
+
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+.icon-link {
+  height: 50px;
+  text-decoration: none;
+}
+.saturn-icon {
+  height: 50px;
+  color: #fff;
+}
+.navbar-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-list-list {
+  margin-left: 50px;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+.navbar-list-list a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  }
+.navbar-list-list a:hover {
+  color: #fff;
+  opacity: 1;
+}
+.fa-solid {
+  color: #fff;
+  opacity: 0.7;
+}
+.fa-solid:hover {
+  color: #fff;
+  opacity: 1;
+}
+.dropdown {
+display: flex;
+padding: 5px;
+background-color: #224e42;
+border-radius: 30px;
+align-items: center;
+
+}
+.dropdown:hover input {
+display: inline-block;
+width: 250px;
+}
+.dropdown input {
+display: none;
+width: 0;
+outline: 0;
+border: none;
+transition: 3s;
+background: transparent;
+background-color: #fff;
+border-radius: 30px;
+padding: 5px;
+}
+.dropdown a .fa-solid {
+color: white;
+opacity: 0.7;
+
+}
+.container {
+  /* display: flex; */
+
+}
+/* main-content */
+.main-content {
+  width: 60vw;
+  height: auto;
+  background-color: #224e42;
+  margin: 5px auto;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+ul {
+  list-style-type: none;
+}
+.numbers-header {
+  text-align: center;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.8;
+  margin: 10px 0;
+
+}
+.example-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numbers-example {
+  text-align: center;
+}
+
+
+.numbers-bg {
+  margin: 10px 270px;
+  /* margin-top: 10px;
+  margin-left: 100px; */
+  border-radius: 20px;
+  width: 800px;
+  height: 400px;
+  object-fit: contain;
+}
+.variable-types {
+  font-size: 20px;
+  font-family:  sans-serif;
+  font-weight: 400;
+  /* margin-top: 10px;
+  margin-left: 70px; */
+  padding: 10px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.numbers-example {
+  text-align: center;
+}
+
+
+
+.numbers-text {
+  font-size: 20px;
+  font-family:  sans-serif;
+  font-weight: 400;
+  /* margin-top: 10px;
+  margin-left: 70px; */
+  padding: 10px;
+  line-height: 1.7;
+
+}
+
+.numbers-input {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px 15px;
+  font-size: 16px;
+}
+.numbers-button {
+  border: none;
+  padding: 10px 15px;
+  width: 100px;
+  background-color: #76d12c;
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 15px;
+  border-radius: 20px;
+}
+.numbers-button:hover {
+  cursor: pointer;
+}
+.input-css {
+  margin: 5px 12px;
+  font-size: 20px;
+  color: #464D45;
+}
+
+/* sidebar topics */
+/* sidebar topics */
+.math-topics-container {
+  display: grid;
+  grid-template-columns: repeat(9, 7vw);
+  grid-template-rows: 1vw 1vw;
+  column-gap: 3vw;
+  row-gap: 5vw;
+  /* margin-bottom: 5px; */
+  /* margin-left: 20px; */
+  /* width: 350px;
+  height: 700px; */
+  text-align: center;
+  /* margin-top: 20px;
+  margin-left: 30px; */
+  padding-top: 2vw;
+  padding-left: 3vw;
+  padding-right: 2vw;
+  background-color: #224e42;
+  border: 1px solid #224e42;
+  /* border-radius: 20px; */
+  color: #fff;
+  padding-bottom: 6vw;
+
+}
+.math-topics-header {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  font-family: 'iFont-sf-rmedium', sans-serif;
+}
+.second-line {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 50px 50px;
+  column-gap: 100px;
+  row-gap: 10px;
+  margin-left: 100px;
+
+}
+.sidebar-header {
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  /* padding: 20px; */
+  color: #fff;
+  opacity: 0.8;
+  /* margin-bottom: 20px; */
+  border-bottom: 1px solid #4a95ce;
+
+}
+.sidebar-topic {
+
+  text-decoration: none;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  /* margin-top: 20px;s */
+  /* padding: 20px; */
+  color: #fff;
+  opacity: 0.8;
+  margin-left: 10px;
+  /* border-bottom: 1px solid #4a95ce; */
+
+}
+
+
+
+
+
+/* Footer */
+#footer {
+  background-color: #224e42;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 35%;
+}
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.footer-list-list {
+  margin-left: 50px;
+
+}
+.footer-list-list a {
+  text-decoration: none;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+}
+@media (max-width: 480px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('../img/math-bg-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f0f0f0;
+  }
+
+  #navbar {
+    /* max-width: 1200px; */
+    width: 100%;
+    background-color: #224e42;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: center;
+
+  }
+  .icon-link {
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+  }
+
+
+  .navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+
+  }
+  .navbar-list a {
+    text-decoration: none;
+    margin-left: 0;
+  }
+  .list-item {
+    font-family: "iFont-sf-dregular", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+
+  }
+
+
+  .fa-solid {
+    color: #fff;
+    opacity: 0.8;
+  }
+  .fa-solid:hover {
+    color: #fff;
+    opacity: 1;
+  }
+  .dropdown {
+  display: flex;
+  padding: 5px;
+  background-color: #224e42;
+  border-radius: 30px;
+  align-items: center;
+
+  }
+  .dropdown:hover input {
+  display: inline-block;
+  width: 250px;
+  }
+  .dropdown input {
+  display: none;
+  width: 0;
+  outline: 0;
+  border: none;
+  transition: 3s;
+  background: transparent;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 5px;
+  }
+  .dropdown a .fa-solid {
+  color: white;
+  opacity: 0.8;
+
+  }
+  .bg-math-growth {
+    width: 100%;
+  }
+  .math-growth-bg {
+    /* margin-top: 10px;
+    margin-left: 100px; */
+    border: 1px solid #224e42;
+    border-radius: 20px;
+    width: 80vw;
+    height: auto;
+  }
+  .main-content {
+    width: 80%;
+    height: auto;
+    /* border: 1px solid #164135; */
+    background-color: #224e42;
+    border-radius: 20px;
+    margin: 5px 20%;
+  }
+  .math-growth-text {
+  font-size: 20px;
+  font-family:  sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  line-height: 1.7;
+  }
+  .math-growth-method-list{
+    margin-left: 20px;
+ }
+ .list-system {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+
+.math-growth-list-text {
+  font-size: 20px;
+  font-family:  sans-serif;
+  line-height: 1.7;
+}
+.math-growth-input {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px 15px;
+  font-size: 16px;
+}
+.math-growth-button {
+  border: none;
+  padding: 10px 15px;
+  width: 100px;
+  background-color: #76d12c;
+  font-size: 20px;
+  color: #fff;
+  margin: 5px 15px;
+  border-radius: 20px;
+}
+.math-growth-button:hover {
+  cursor: pointer;
+}
+.input-css {
+  margin: 5px 12px;
+  font-size: 20px;
+  color: #464D45;
+}
+
+.quiz-container {
+  height: auto;
+}
+/* sidebar topics */
+/* sidebar topics */
+.math-topics-container {
+  background-color: #224e42;
+  border: 1px solid #224e42;
+  color: #fff;
+  width: 80%;
+  margin: 5px 20%;
+
+}
+.math-topics-container {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-template-rows: repeat(3, 40px);
+  column-gap: 20px;
+  row-gap: 25px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.second-line {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  grid-template-rows: repeat(3, 50px);
+  column-gap: 20px;
+  row-gap: 25px;
+  text-align: center;
+  margin-left: 0;
+}
+.math-topics-header {
+  text-align: center;
+  font-size: 1.1rem;
+  opacity: 0.8;
+  font-family: 'iFont-sf-rmedium', sans-serif;
+}
+
+.sidebar-topic {
+
+  text-decoration: none;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  /* margin-top: 20px;s */
+  /* padding: 20px; */
+  color: #fff;
+  opacity: 1;
+  font-size: 16px;
+
+}
+
+/* Footer */
+#footer {
+  width: 100vw;
+  overflow: hidden;
+  background-color: #224e42;
+}
+
+.footer-container {
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer-list {
+  margin-left: 5%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.footer-list-list {
+  margin-left: 5vw;
+
+}
+.footer-list-list a {
+  text-decoration: none;
+  font-family: "iFont-sf-dregular", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+
+}
