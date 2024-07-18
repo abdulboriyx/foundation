@@ -3,6 +3,11 @@
   padding: 0;
 
 }
+
+:root {
+  --astronomy-background: #0A082C;
+  --astronomy-background-img: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
+}
 @font-face {
   font-family: 'iFont-sf-dmedium';
   src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf);
@@ -52,8 +57,9 @@ body {
 #navbar {
   /* max-width: 1200px; */
   background: #2596be;
-
-
+}
+#navbar-astronomy {
+  background-color: var(--astronomy-background);
 }
 
 .navbar-container {
@@ -128,7 +134,9 @@ body {
   background-size: cover;
   background-position: center;
 
-
+}
+.banner-astronomy {
+  background-image: var(--astronomy-background-img);
 
 }
 
@@ -153,7 +161,7 @@ body {
 /* lessons */
 .course-header {
   text-align: center;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
   font-family: 'iFont-sf-dregular', sans-serif;
   margin: 5px auto;
@@ -181,9 +189,9 @@ body {
 
 
 .course-img-img {
-width: 80%;
-height: 80%;
-object-fit: contain;
+width: 70%;
+height: 70%;
+object-fit: cover;
 padding: 5px;
 }
 
@@ -208,7 +216,9 @@ padding: 5px;
 #footer {
   background-color: #2596be;
 }
-
+#footer-astronomy {
+  background: var(--astronomy-background);
+}
 .footer-container {
   display: flex;
   justify-content: center;
