@@ -46,12 +46,12 @@
 }
 /* body */
 body {
-  /* background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-blue-gradient-shading-education-math-formula-background-picture-image_1457810.jpg');
+  background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: lighten;
-  color: #f0f0f0; */
+  color: #f0f0f0;
 }
 
 #navbar {
@@ -59,7 +59,7 @@ body {
   background: #2596be;
 }
 #navbar-astronomy {
-  background-color: var(--astronomy-background);
+  /* background-color: var(--astronomy-background); */
 }
 
 .navbar-container {
@@ -161,7 +161,7 @@ body {
 /* lessons */
 .course-header {
   text-align: center;
-  color: #000;
+  color: #fff;
   opacity: 0.8;
   font-family: 'iFont-sf-dregular', sans-serif;
   margin: 5px auto;
@@ -169,7 +169,7 @@ body {
 
 .container {
   display: flex;
-  max-width: 1250px;
+  max-width: 1350px;
   margin: 5px auto;
   flex-wrap: wrap;
 
@@ -179,35 +179,41 @@ body {
 .course-topic {
   width: 300px;
   height: 270px;
-  margin: 10px 5px;
+  margin: 35px 15px;
   text-align: center;
-  border: 1px solid #000;
+  /* border: 1px solid #fff; */
   border-radius: 20px;
-  /* background-color: #FFFF75; */
+  /* background-color: var(--astronomy-background); */
 }
 
 
 
 .course-img-img {
-width: 70%;
-height: 70%;
+width: 100%;
+height: 100%;
 object-fit: cover;
 padding: 5px;
+border-radius: 20px;
 }
 
-.course-img-img:hover {
-  transform: scaleX(1.1) scaleY(1.1);
-}
-
-.course-topic-name {
+.course-link {
+  color: #fff;
+  opacity: 0.7;
   margin-top: 5px;
-  text-decoration: none;
-  color: #000;
+  text-decoration: underline;
+  color: #fff;
   text-align: center;
   opacity: 0.7;
   font-size: 18px;
   font-family: 'iFont-sf-tmedium', sans-serif;
+
+
 }
+.course-img-img:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+
 .course-topic-name:hover {
   font-weight: 800;
 }
@@ -215,9 +221,10 @@ padding: 5px;
 /* Footer */
 #footer {
   background-color: #2596be;
+
 }
 #footer-astronomy {
-  background: var(--astronomy-background);
+  margin-top: 40px;
 }
 .footer-container {
   display: flex;
