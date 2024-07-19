@@ -7,6 +7,7 @@
 :root {
   --astronomy-background: #0A082C;
   --astronomy-background-img: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
+  --math-background-img: url('https://cdn.vectorstock.com/i/500p/00/98/mathematics-seamless-pattern-math-background-vector-44490098.jpg');
 }
 @font-face {
   font-family: 'iFont-sf-dmedium';
@@ -47,6 +48,7 @@
 /* body */
 body {
   background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -56,7 +58,7 @@ body {
 
 #navbar {
   /* max-width: 1200px; */
-  background: #2596be;
+  /* background: #2596be; */
 }
 #navbar-astronomy {
   /* background-color: var(--astronomy-background); */
@@ -137,6 +139,13 @@ body {
 }
 .banner-astronomy {
   background-image: var(--astronomy-background-img);
+
+}
+.math-banner {
+  background-image: url(' https://t4.ftcdn.net/jpg/04/73/55/35/360_F_473553549_nXHqvqHEiPGiJxunhMoCv83wMmralBKT.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -220,7 +229,7 @@ border-radius: 20px;
 
 /* Footer */
 #footer {
-  background-color: #2596be;
+  /* background-color: #2596be; */
 
 }
 #footer-astronomy {
@@ -255,7 +264,7 @@ border-radius: 20px;
 @media (max-width: 480px) {
 
 .course-topic {
-  width: 100%;
+  width: 80%;
   margin: 15px 15%;
 }
 .logo-text {
