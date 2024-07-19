@@ -8,6 +8,7 @@
   --astronomy-background: #0A082C;
   --astronomy-background-img: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
   --math-background-img: url('https://cdn.vectorstock.com/i/500p/00/98/mathematics-seamless-pattern-math-background-vector-44490098.jpg');
+  --biology-background-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhH0WZG7gz_hU3mhnRjxaJjNWMc8XGfRqqJ1upCwc_lksV9aX7DxiwA54-VMv2jJEP00&usqp=CAU');
 }
 @font-face {
   font-family: 'iFont-sf-dmedium';
@@ -48,7 +49,6 @@
 /* body */
 body {
   background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
-
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -141,6 +141,7 @@ body {
   background-image: var(--astronomy-background-img);
 
 }
+
 .math-banner {
   background-image: url(' https://t4.ftcdn.net/jpg/04/73/55/35/360_F_473553549_nXHqvqHEiPGiJxunhMoCv83wMmralBKT.jpg');
   background-repeat: no-repeat;
@@ -148,7 +149,12 @@ body {
   background-position: center;
 
 }
-
+.biology-banner {
+  background-image: url('https://media.istockphoto.com/id/1080629470/video/scientist-testing-in-laboratory-analyte-blue-dna-sequence.jpg?s=640x640&k=20&c=p6ih7gHFtRZLPF8q0B-xkYUyzmXAJUQ_DU-vsHbLtt0=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .header-banner-header {
   color: #FFFFFF;
   opacity: 0.8;
