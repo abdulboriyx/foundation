@@ -155,11 +155,18 @@ body {
   background-size: cover;
   background-position: center;
 }
+.chemistry-banner {
+  background-image: url('https://img.freepik.com/premium-photo/hand-drawn-science-formulas-chalkboard-background_387864-1761.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
 .header-banner-header {
   color: #FFFFFF;
-  opacity: 0.8;
+  opacity: 1;
   font-family: 'iFont-sf-dmedium';
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 120px;
 }
 .header-banner-text {
