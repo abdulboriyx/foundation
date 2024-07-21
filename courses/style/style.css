@@ -168,15 +168,21 @@ body {
   background-size: cover;
   background-position: center;
 }
+.econ-banner {
+  background-image: url('https://www.creativefabrica.com/wp-content/uploads/2021/05/24/Economics-flat-concept-illustration-Graphics-12385431-1-1-580x386.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .header-banner-header {
-  color: #FFFFFF;
+  color: #000;
   opacity: 1;
   font-family: 'iFont-sf-dmedium';
   font-size: 20px;
   margin-top: 120px;
 }
 .header-banner-text {
-  color: #ADD8E6;
+  color: #000;
   font-family: 'iFont-sf-dmedium';
   font-size: 20px;
   margin-top: 10px;
