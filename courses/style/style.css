@@ -162,6 +162,12 @@ body {
   background-position: center;
 
 }
+.cs-banner {
+  background-image: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?cs=srgb&dl=pexels-harold-vasquez-853421-2653362.jpg&fm=jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .header-banner-header {
   color: #FFFFFF;
   opacity: 1;

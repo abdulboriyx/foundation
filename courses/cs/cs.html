@@ -3,33 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CS</title>
+  <title>Computer Science (CS)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7bc36397e6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="cs.css">
+  <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+<style>
 
+  body {
+    background-image: url('https://media.istockphoto.com/id/1094922834/vector/binary-background.jpg?s=612x612&w=0&k=20&c=OEGamSEXekm5Q0dRGa1U4DtzgIS_Zq1cCjhjM3D0EWI=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .logo-icon {
+    display: none;
+  }
+</style>
     <!-- Navbar -->
     <div id="navbar">
       <div class="navbar-container">
-    <a class="icon-link" href="/foundation/high-school.html"><img src="https://cdn-icons-png.flaticon.com/512/124/124610.png" alt="icon" class="saturn-icon"></a>
+        <p class="logo-text">The Foundation</p>
+        <i class="fa-solid fa-f logo-icon"></i>
 
     <ul class="navbar-list">
       <li class="navbar-list-list"><a href="/foundation/high-school.html">Home</a></li>
         <li class="navbar-list-list"><a href="/foundation/high-school.html#courses">Courses</a></li>
       <li class="navbar-list-list"><a href="#">Contacts</a></li>
 
-    <li class="navbar-list-list">
-    <div class="dropdown">
-    <input type="text" placeholder="Search">
-    <a href="#">
-      <i class="fa-solid fa-magnifying-glass"></i>
-    </a>
-  </div>
-</li>
     </ul>
     </div>
     </div>
@@ -37,8 +41,8 @@
     <!-- Header -->
 
     <div id="header">
-      <h1 class="header-text">Computer-science</h1>
-      <div class="header-banner">
+      <h1 class="header-text">Computer Science</h1>
+      <div class="header-banner cs-banner">
         <h4 class="header-banner-header">The art challenges the technology, and the technology inspires the art</h4>
         <p class="header-banner-text">John Lasseter</p>
       </div>
@@ -46,78 +50,93 @@
 
 
   <!-- topics -->
-  <div id="computer-science-topics">
-    <h1 class="computer-science-header">CS TOPICS</h1>
-    <div class="computer-science-topics-container">
+  <div id="course-topics">
+    <h1 class="course-header">Computer Science TOPICS</h1>
+    <div class="container">
 
-      <!-- intro to biology -->
-      <div class="computer-science-topic intro-computer-science-topic">
-    <a class="computer-science-topic-link intro-computer-science-link" href="#"><img src="https://velog.velcdn.com/images/pjh1011409/post/1ceead0d-831a-4bf0-97ee-2d59f34fcda5/image.png" alt="£" class="computer-science-link-img intro-biology-img"></a>
-    <p class="computer-science-topic-name">Introduction to computer science</p>
+      <!-- intro to cs -->
+      <div class="course-topic intro-course-topic">
+    <a class="course-topic-link intro-computer-science-link" href="#"><img src="https://velog.velcdn.com/images/pjh1011409/post/1ceead0d-831a-4bf0-97ee-2d59f34fcda5/image.png" alt="£" class="course-img-img intro-biology-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Intro to Computer Science</a></p>
   </div>
 
 
-  <!-- Hardware -->
-  <div class="computer-science-topic hardware-topic">
+  <!-- Hardware & Software -->
+  <div class="course-topic hardware-topic">
 
-    <a class="computer-science-topic-link hardware-link" href="#"><img src="https://img.freepik.com/free-vector/isometric-computer-hardware-parts-set-with-monitor-system-unit-electronic-components-details-isolated_1284-38504.jpg" alt="£" class="computer-science-link-img celestial-img"></a>
-    <p class="computer-science-topic-name">Computer Hardware</p>
+    <a class="course-topic-link hardware-link" href="#"><img src="https://learn.g2.com/hubfs/G2CM_BI158_Backlog_Images_%5Bhardware_vs_software%5D_V1a.png" alt="£" class="course-img-img celestial-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Hardware & Software</a></p>
   </div>
 
-  <!-- Software -->
-  <div class="computer-science-topic software-topic">
-    <a class="computer-science-topic-link software-link" href="#"><img src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/types-of-software.webp" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">Software</p>
+  <!-- OS -->
+  <div class="course-topic os-topic">
+    <a class="course-topic-link software-link" href="#"><img src="https://runestone.academy/ns/books/published/welcomecs2/external/OperatingSystems/Images/operating-system-logos.jpg" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Operating Systems</a></p>
 
   </div>
 
-  <!-- Operating systems -->
-  <div class="computer-science-topic os-topic">
-    <a class="computer-science-topic-link os-link" href="#"><img src="https://www.shutterstock.com/image-photo/kiev-ukraine-june-1-2016-260nw-452259352.jpg" alt="£" class="computer-science-link-img"></a>
-  <p class="computer-science-topic-name">Operating systems</p>
-  </div>
 
   <!-- intro to programming -->
-  <div class="computer-science-topic intro-programming-topic">
-    <a class="computer-science-topic-link intro-programming-link" href="#"><img src="https://media.istockphoto.com/id/1386341272/photo/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=612x612&w=0&k=20&c=16FJUoZ6j-XmBDF0g-llzkJaIsdpf6uz46D4eQfL_LM=" alt="£" class="computer-science-link-img"></a>
-  <p class="computer-science-topic-name">Intro to programming</p>
+  <div class="course-topic intro-programming-topic">
+    <a class="course-topic-link intro-programming-link" href="#"><img src="https://media.istockphoto.com/id/1386341272/photo/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=612x612&w=0&k=20&c=16FJUoZ6j-XmBDF0g-llzkJaIsdpf6uz46D4eQfL_LM=" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Intro to Programming</a></p>
   </div>
 
-  <!-- Programming languages-->
-  <div class="computer-science-topic programming-language-topic">
-    <a class="computer-science-topic-link programming-language-link" href="#"><img src="https://www.netsolutions.com/insights/wp-content/uploads/2022/07/11-best-future-programming-languages.webp" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">Programming languages</p>
+  <!-- Data types -->
+  <div class="course-topic data-types-topic">
+    <a class="course-topic-link data-structure-link" href="#"><img src="https://cdn.sanity.io/images/l5rq9j6r/production/7e0b82393d930a6330d85ac581f4b7ff3670018a-1500x939.jpg" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Basic Data Types & Variables</a></p>
   </div>
 
-  <!-- Data structure -->
-  <div class="computer-science-topic data-structure-topic">
-    <a class="computer-science-topic-link data-structure-link" href="#"><img src="https://miro.medium.com/v2/resize:fit:1358/1*J38nYZU7gzu-4lQmtjlSUw.jpeg" alt="£" class="computer-science-link-img"></a>
-  <p class="computer-science-topic-name">Data structures</p>
-  </div>
-
-  <!-- Algorithms -->
-  <div class="computer-science-topic algorithms-topic">
-    <a class="computer-science-topic-link algorithms-link" href="#"><img src="https://blog.kakaocdn.net/dn/6yxUt/btqCNHbbuSS/IYoQOo0sktEGGJ2SeF6jPK/img.png" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">Algorithms</p>
+  <!-- Control Structures -->
+  <div class="course-topic control-structures-topic">
+    <a class="course-topic-link algorithms-link" href="#"><img src="https://blog.kakaocdn.net/dn/6yxUt/btqCNHbbuSS/IYoQOo0sktEGGJ2SeF6jPK/img.png" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Control Structures</a></p>
   </div>
 
 
-  <!-- Networking -->
-  <div class="computer-science-topic networking-topic">
-    <a class="computer-science-topic-link networking-link" href="#"><img src="https://previews.123rf.com/images/cooldesign/cooldesign1210/cooldesign121000260/15593750-global-computer-network.jpg" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">Netwroking</p>
+  <!-- Functions -->
+  <div class="course-topic functions-topic">
+    <a class="course-topic-link networking-link" href="#"><img src="https://previews.123rf.com/images/cooldesign/cooldesign1210/cooldesign121000260/15593750-global-computer-network.jpg" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Functions</a></p>
   </div>
 
-  <!-- Cybersecurity -->
-  <div class="computer-science-topic cybersecurity-topic">
-    <a class="computer-science-topic-link cybersecurity-link" href="#"><img src="https://img.freepik.com/free-vector/cyber-security-concept_23-2148532223.jpg" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">Cybersecurity</p>
+  <!-- Data Structures -->
+  <div class="course-topic data-structure-topic">
+    <a class="course-topic-link cybersecurity-link" href="#"><img src="https://media.licdn.com/dms/image/D4D12AQF2UVgSmBI74w/article-cover_image-shrink_720_1280/0/1675012140861?e=2147483647&v=beta&t=EpJ1GGBVvpuaK2UT9LWSON6unOu1v_D2sic4qH4_d1Q" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Data Structures</a></p>
   </div>
+
+<!-- OOP -->
+<div class="course-topic oop-topic">
+  <a class="course-topic-link cybersecurity-link" href="#"><img src="https://images.velog.io/images/ygh7687/post/5a98de44-834d-4980-876a-a736260d0bee/oop.png" alt="£" class="course-img-img"></a>
+  <p class="course-topic-name"><a href="" class="course-link">Object Oriented Programming (OOP)</a></p>
+</div>
+
+<!-- Basic Algorithms -->
+<div class="course-topic basic-algorithms-topic">
+  <a class="course-topic-link cybersecurity-link" href="#"><img src="https://www.verywellmind.com/thmb/S58tUwCd9h9l324s6xi2bTqnnYg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-172264468-56a7928e5f9b58b7d0ebcd1b.jpg" alt="£" class="course-img-img"></a>
+  <p class="course-topic-name"><a href="" class="course-link">Basic Algorithms</a></p>
+</div>
+
+
+
+<!-- Databases -->
+<div class="course-topic databases-topic">
+  <a class="course-topic-link cybersecurity-link" href="#"><img src="https://img.freepik.com/premium-vector/database-storing-large-data-cloud-mass-sharing-information_68708-2949.jpg" alt="£" class="course-img-img"></a>
+  <p class="course-topic-name"><a href="" class="course-link">Databases</a></p>
+</div>
+
+<!-- Intro to Networking -->
+<div class="course-topic networking-topic">
+  <a class="course-topic-link cybersecurity-link" href="#"><img src="https://st.depositphotos.com/1706369/1276/i/450/depositphotos_12769630-stock-photo-computer-network.jpg" alt="£" class="course-img-img"></a>
+  <p class="course-topic-name"><a href="" class="course-link">Intro to networking</a></p>
+</div>
 
   <!-- AI -->
-  <div class="computer-science-topic ai-topic">
-    <a class="computer-science-topic-link ai-link" href="#"><img src="https://img.freepik.com/free-vector/robotic-artificial-intelligence-technology-smart-lerning-from-bigdata_1150-48136.jpg" alt="£" class="computer-science-link-img"></a>
-    <p class="computer-science-topic-name">AI</p>
+  <div class="course-topic ai-topic">
+    <a class="course-topic-link ai-link" href="#"><img src="https://img.freepik.com/free-vector/robotic-artificial-intelligence-technology-smart-lerning-from-bigdata_1150-48136.jpg" alt="£" class="course-img-img"></a>
+    <p class="course-topic-name"><a href="" class="course-link">Databases</a></p>
   </div>
 
 
@@ -130,7 +149,9 @@
 
       <footer id="footer">
         <div class="footer-container">
-          <a class="icon-link" href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124610.png" alt="icon" class="saturn-icon"></a>
+          <p class="logo-text">The Foundation</p>
+          <i class="fa-solid fa-f logo-icon"></i>
+
 
           <ul class="footer-list">
             <li class="footer-list-list"><a href="#">Home</a></li>
