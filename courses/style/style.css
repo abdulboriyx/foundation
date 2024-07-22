@@ -175,15 +175,22 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.geography-banner {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/804/365/244/earth-map-dual-monitor-earth-geography-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .header-banner-header {
-  color: #000;
+  color: #fff;
   opacity: 1;
   font-family: 'iFont-sf-dmedium';
   font-size: 20px;
   margin-top: 120px;
 }
 .header-banner-text {
-  color: #000;
+  color: #fff;
   font-family: 'iFont-sf-dmedium';
   font-size: 20px;
   margin-top: 10px;
