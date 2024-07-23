@@ -138,6 +138,20 @@ body {
   background-position: center;
 
 }
+.people-banner {
+  width: 700px;
+  height: 400px;
+  margin: 5px auto;
+
+  /* object-fit: contain; */
+}
+.people-banner-img {
+  width: 700px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* object-fit: contain; */
+}
 .banner-astronomy {
   background-image: var(--astronomy-background-img);
 
