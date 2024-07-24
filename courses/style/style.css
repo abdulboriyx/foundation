@@ -218,6 +218,12 @@ body {
   background-position: center;
 }
 
+.politics-banner {
+  background-image: url('https://aarp.widen.net/content/r7vbqza9fc/jpeg/AI-MisinformationPulledOut-Spella.jpg?crop=true&anchor=0,0&q=80&color=ffffffff&u=ovnylx&w=1140&h=655');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .header-banner-header {
   color: #fff;
   opacity: 1;
