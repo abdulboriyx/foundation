@@ -90,7 +90,7 @@ body {
 }
 /* main-content */
 .main-content-container {
-width: 1000px;
+width: auto;
 margin: 5px auto;
 }
 
@@ -109,20 +109,17 @@ margin: 5px auto;
   margin: 20px auto;
 }
 
-.astro-def {
-  width: auto;
-  border: 1px solid #c57c5a;
+.topic-def {
   border-radius: 20px;
-  padding: 10px;
-  margin-left: 1vw;
   background-image: url('https://cdn.mos.cms.futurecdn.net/v5n22xGyNNHLzSnSArbrVH-1200-80.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
 }
 .astro-header {
-  text-align: center;
   font-family: var(--default-font);
+  margin-top: 10px;
+  text-align: center;
 }
 .astro-text {
   padding: 15px 10px;
@@ -131,6 +128,23 @@ margin: 5px auto;
   color: #fff;
   line-height: 1.6;
   opacity: 0.8;
+}
+.astro-topic, .astro-solar-history, .astro-key-terms {
+  width: 1200px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px
+}
+.astro-topic-text {
+  padding: 10px 0px;
+  width: 70vw;
+  font-family: var(--default-font);
+  font-size: 24px;
+  color: #000;
+  line-height: 1.2;
+  margin-left: 12vw;
+  font-weight: 800;
 }
 .astro-img {
   width: 400px;
@@ -149,11 +163,13 @@ margin: 5px auto;
 .astro-button {
   padding: 7px 20px;
   background-color: rgb(13, 55, 13);
-  color: #000;
+  color: #fff;
   border: 1px solid rgb(13, 55, 13);
   border-radius: 20px;
   font-family: var(--default-font);
   font-size: 20px;
+  margin-top: 2vw;
+  margin-left: 12vw;
 
 }
 
@@ -173,8 +189,11 @@ margin: 5px auto;
   margin-top: 5px;
   margin-left: 4vw;
 }
+.astro-term-list {
+  margin-left: 5vw;
+}
 .astro-term-list-list {
-  padding: 15px 5px;
+  padding: 15px 0px;
 
 }
 .astro-term-img {
