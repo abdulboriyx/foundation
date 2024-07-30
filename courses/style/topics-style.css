@@ -120,14 +120,15 @@ margin: 5px auto;
   font-family: var(--default-font);
   margin-top: 10px;
   text-align: center;
+  color: #fff;
 }
 .astro-text {
-  padding: 15px 10px;
   font-family: var(--default-font);
   font-size: 24px;
   color: #fff;
   line-height: 1.6;
-  opacity: 0.8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow with 70% opacity */
+  padding: 20px;
 }
 .astro-topic, .astro-solar-history, .astro-key-terms {
   width: 1200px;
@@ -136,15 +137,31 @@ margin: 5px auto;
   border: 1px solid black;
   border-radius: 20px
 }
+.astro-video {
+  border-radius: 20px;
+  margin-left: 25vw;
+}
 .astro-topic-text {
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
+  width: 70vw;
+  font-family: var(--default-font);
+  font-size: 24px;
+  color: #fff;
+  line-height: 1.2;
+  margin-left: 10vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow with 70% opacity */
+  padding: 20px;
+  font-weight: 500;
+}
+.quiz-text {
+  /* padding: 10px 0px; */
   width: 70vw;
   font-family: var(--default-font);
   font-size: 24px;
   color: #000;
   line-height: 1.2;
-  margin-left: 12vw;
-  font-weight: 800;
+  margin-left: 10vw;
+  padding: 20px;
 }
 .astro-img {
   width: 400px;
@@ -202,4 +219,90 @@ margin: 5px auto;
   margin-top: 1vw;
   margin-left: 30vw;
   object-fit: cover;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 7vw;
+}
+
+/* Solar System */
+
+.astro-solar-history {
+  background-image: url('https://c02.purpledshub.com/uploads/sites/48/2020/08/GettyImages-1148112202-1-53b2096.jpg?webp=1&w=1200');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sun-topic {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/mzvdREkye2SgLCAqAme7fY-1200-80.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.planets-topic {
+  background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/solar-system-banner-1920x640-1.jpg?w=1920');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dwarf-planets-topic {
+  background-image: url('https://pbs.twimg.com/media/F5bCy9tW8AAd8S1.jpg:large');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.moons-topic {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.asteroid-topic {
+  background-image: url('https://science.nasa.gov/wp-content/uploads/2023/07/Asteroid_Vesta-1.jpeg?w=640');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.comets-topic {
+  background-image: url('https://cdn.mos.cms.futurecdn.net/KLXJHZX37JfEjgsppM2qmG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.meteor-topic {
+  background-image: url('https://static8.depositphotos.com/1548395/1007/i/450/depositphotos_10076552-stock-photo-asteroid.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.kuiper-topic {
+  background-image: url('https://c02.purpledshub.com/uploads/sites/48/2020/08/Oort-Cloud-578fa93.jpg?w=1029&webp=1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.astro-exploration {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Voyager_spacecraft.jpg/1200px-Voyager_spacecraft.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.astro-funfact {
+  background-image: url('https://d.newsweek.com/en/full/2168730/planets-solar-system.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* The Sun */
+.sun-history, .sun-def, .sun-structure, .sun-energy-topic, .solar-activity-topic, .solar-impact-topic, .sun-observation-topic, .sun-funfact {
+  background-color: #0c0525;
+}
+.history-img {
+  margin-left: 30vw;
 }
