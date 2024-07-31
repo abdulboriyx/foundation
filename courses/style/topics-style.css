@@ -299,9 +299,12 @@ margin: 5px auto;
   background-position: center;
 }
 
+
+
+
 /* The Sun */
-.sun-history, .sun-def, .sun-structure, .sun-energy-topic, .solar-activity-topic, .solar-impact-topic, .sun-observation-topic, .sun-funfact {
-  background-color: #0c0525;
+.sun-history, .sun-def, .sun-structure, .sun-energy-topic, .solar-activity-topic, .solar-impact-topic, .sun-observation-topic, .sun-funfact, .planet-def, .planet-history, .planet-structure, .astro-topic {
+  background-color: #1C253C;
 }
 .history-img {
   margin-left: 30vw;
