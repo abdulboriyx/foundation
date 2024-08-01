@@ -31,7 +31,7 @@
   font-style: normal;
   font-size: 20px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   opacity: 0.7;
   padding: 10px;
 }
@@ -55,7 +55,7 @@
 
 .navbar-list-list a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   opacity: 0.7;
   }
 .navbar-list-list a:hover {
@@ -96,56 +96,6 @@
 
 }
 
-.banner-astronomy {
-  background-image: var(--astronomy-background-img);
-
-}
-
-.math-banner {
-  background-image: url(' https://t4.ftcdn.net/jpg/04/73/55/35/360_F_473553549_nXHqvqHEiPGiJxunhMoCv83wMmralBKT.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-.biology-banner {
-  background-image: url('https://media.istockphoto.com/id/1080629470/video/scientist-testing-in-laboratory-analyte-blue-dna-sequence.jpg?s=640x640&k=20&c=p6ih7gHFtRZLPF8q0B-xkYUyzmXAJUQ_DU-vsHbLtt0=');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.chemistry-banner {
-  background-image: url('https://i.pinimg.com/736x/46/f8/ea/46f8eafb5eef12b3f3c3e957ffde5958.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-.cs-banner {
-  background-image: url('https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?cs=srgb&dl=pexels-harold-vasquez-853421-2653362.jpg&fm=jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.econ-banner {
-  background-image: url('https://blog.alliance.edu.in/wp-content/uploads/2023/03/a-career-in-economics-02-03-2023-1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.geography-banner {
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/804/365/244/earth-map-dual-monitor-earth-geography-wallpaper-preview.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.history-banner {
-  background-image: url('https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 .people-banner {
   width: 700px;
@@ -156,25 +106,6 @@
 }
 
 
-.philosophy-banner {
-  background-image: url('https://www.worldhistory.org/img/r/p/750x750/12427.jpg?v=1716213310 ');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.physics-banner {
-  background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_22/2451826/180601-atomi-mn-1540.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.politics-banner {
-  background-image: url('https://aarp.widen.net/content/r7vbqza9fc/jpeg/AI-MisinformationPulledOut-Spella.jpg?crop=true&anchor=0,0&q=80&color=ffffffff&u=ovnylx&w=1140&h=655');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 .header-banner-header {
   color: #fff;
   opacity: 1;
