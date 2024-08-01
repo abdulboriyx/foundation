@@ -257,7 +257,8 @@ transition: opacity ease 250ms;
 
   .course-topic {
     width: 80%;
-    margin: 15px 10vw;
+    margin-top: 15px;
+    margin-left: 10vw;
   }
   .logo-text {
     display: none;
