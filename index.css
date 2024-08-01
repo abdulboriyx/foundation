@@ -3,42 +3,7 @@
   padding: 0;
 
 }
-@font-face {
-  font-family: 'iFont-sf-dmedium';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Medium.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'iFont-sf-dregular';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Display-Regular.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'iFont-sf-rmedium';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Medium.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'iFont-sf-rregular';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Rounded-Regular.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'iFont-sf-tmedium';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Medium.otf);
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'iFont-sf-tregular';
-  src: url(fonts/San-Francisco-Pro-Fonts-master/SF-Pro-Text-Regular.otf);
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 
 /* animation */
@@ -285,3 +250,65 @@ transition: opacity ease 250ms;
   color: #fff;
   opacity: 0.7;
 }
+
+
+
+@media (max-width: 480px) {
+
+  .course-topic {
+    width: 80%;
+    margin: 15px 10vw;
+  }
+  .logo-text {
+    display: none;
+    margin-left: 50px;
+    font-family: "iFont-sf-dregular", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    padding: 10px 0px;
+  }
+  .logo-icon {
+    display: block;
+    margin-left: -20px;
+    padding: 10px 0px;
+    color: white;
+    opacity: 0.7;
+  }
+
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -5px;
+  }
+  .navbar-list-list {
+    margin-left: 20px;
+    font-family: "iFont-sf-dregular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+
+  .footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -5px;
+  }
+  .footer-list-list {
+    margin-left: 20px;
+
+  }
+  .footer-list-list a {
+    text-decoration: none;
+    font-family: "iFont-sf-dregular", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.7;
+  }
+  }
