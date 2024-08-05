@@ -313,7 +313,7 @@ margin: 5px auto;
 
 /* The Sun */
 .sun-history, .sun-def, .sun-structure, .sun-energy-topic, .solar-activity-topic, .solar-impact-topic, .sun-observation-topic, .sun-funfact, .planet-def, .planet-history, .planet-structure, .astro-topic {
-  background-color: #000;
+  background-color: #1a1726;
 }
 .history-img {
   margin-left: 30vw;
