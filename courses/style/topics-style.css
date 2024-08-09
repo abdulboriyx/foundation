@@ -75,13 +75,13 @@ body {
   align-items: center;
 }
 
-.astro-banner {
+.astro-banner, .topic-banner {
   font-family: "EB Garamond", serif;
   color: #000;
   margin: 5px 0px;
   text-align: center;
 }
-.astro-banner-img {
+.astro-banner-img, .topic-banner-img {
   width: 700px;
   height: 400px;
   margin: 5px auto;
@@ -108,14 +108,14 @@ margin: 5px auto;
 }
 
 
-.astro-header {
+.astro-header, .topic-header {
   font-family: var(--default-font);
   margin-top: 10px;
   text-align: center;
   color: #fff;
 }
 
-.astro-topic {
+.astro-topic, .topic-cover {
   width: 1200px;
   margin: 10px auto;
   padding: 10px;
@@ -123,11 +123,11 @@ margin: 5px auto;
   border-radius: 20px;
   background-color: #1a1726;
 }
-.astro-video {
+.astro-video, .topic-video {
   border-radius: 20px;
   margin-left: 25vw;
 }
-.astro-topic-text {
+.astro-topic-text,.topic-cover-text {
   /* padding: 10px 0px; */
   width: 70vw;
   font-family: var(--default-font);
@@ -150,7 +150,7 @@ margin: 5px auto;
   padding: 20px;
 }
 
-.astro-earth-img {
+.astro-earth-img, .topic-img {
   width: 900px;
   height: 400px;
   object-fit: cover;
@@ -271,7 +271,7 @@ margin: 5px auto;
 
   }
 
-  .astro-topic {
+  .astro-topic, .topic-cover {
     width: 350px;
 
   }
