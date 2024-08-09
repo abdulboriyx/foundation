@@ -263,8 +263,8 @@ margin: 5px auto;
     font-size: 17px;
   }
   .astro-banner-img {
-    width: 210px;
-    height: 100px;
+    width: 270px;
+    height: 120px;
     margin-left: -12px;
     border: 1px;
     border-radius: 15px;
@@ -272,7 +272,7 @@ margin: 5px auto;
   }
 
   .astro-topic {
-    width: 190px;
+    width: 270px;
 
   }
   .astro-header {
@@ -284,7 +284,7 @@ margin: 5px auto;
     margin-top: 15px;
   }
   .astro-topic-text {
-    width: 180px;
+    width: 250px;
     font-family: var(--default-font);
     font-size: 16px;
     color: #fff;
@@ -294,16 +294,15 @@ margin: 5px auto;
     font-weight: 500;
   }
   .astro-earth-img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 120px;
     object-fit: cover;
     margin: 5px 0px;
-    margin-left: 2vw;
     border: 1px solid;
     border-radius: 20px;
   }
   .astro-video {
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     margin-left: 2vw;
   }
