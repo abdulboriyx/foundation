@@ -9,6 +9,7 @@
   --astronomy-background-img: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felixmittermeier-956999.jpg&fm=jpg');
   --math-background-img: url('https://cdn.vectorstock.com/i/500p/00/98/mathematics-seamless-pattern-math-background-vector-44490098.jpg');
   --biology-background-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuhH0WZG7gz_hU3mhnRjxaJjNWMc8XGfRqqJ1upCwc_lksV9aX7DxiwA54-VMv2jJEP00&usqp=CAU');
+  --default-font:  "EB Garamond", serif;
 }
 
 /* body */
@@ -89,11 +90,13 @@
   border-radius: 15px;
   margin: 5px auto;
   padding: 5px;
-  background-image: url('https://t3.ftcdn.net/jpg/03/29/41/98/360_F_329419895_2LKInappp1st56Vvb35lo9bxb2Zppawh.jpg');
+
+}
+.banner-astronomy {
+  background-image: url('https://blogassets.leverageedu.com/blog/wp-content/uploads/2020/07/23195339/Branches-of-Astronomy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 
@@ -218,7 +221,7 @@ border-radius: 20px;
   font-family: "iFont-sf-dregular", sans-serif;
   font-style: normal;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   opacity: 0.7;
 }
 
@@ -229,6 +232,15 @@ border-radius: 20px;
   width: 80%;
   margin: 15px 15%;
 }
+
+.course-img-img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 20px;
+  }
+
 .logo-text {
   display: none;
   margin-left: 50px;
@@ -242,10 +254,18 @@ border-radius: 20px;
 }
 .logo-icon {
   display: block;
-  margin-left: -20px;
+  margin-left: -10px;
   padding: 10px 0px;
-  color: white;
   opacity: 0.7;
+}
+.course-header {
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  opacity: 0.8;
+  font-family: 'iFont-sf-dregular', sans-serif;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .navbar-list {
@@ -260,6 +280,39 @@ border-radius: 20px;
   font-family: "iFont-sf-dregular", sans-serif;
   font-style: normal;
   font-size: 14px;
+}
+
+.header-banner {
+  text-align: center;
+  width: 350px;
+  height: 150px;
+  border: 1px;
+  border-radius: 15px;
+
+}
+.header-banner-header {
+  font-size: 16px;
+  margin-top: 50px;
+}
+.header-banner-text {
+  font-size: 14px;
+}
+
+.course-topic {
+  margin-bottom: 40px;
+}
+
+.course-link {
+  color: #000;
+  opacity: 0.7;
+  margin-top: 3px;
+  text-decoration: underline;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 20px;
+  font-family: var(--default-font);
+
+
 }
 
 .footer-list {
