@@ -12,8 +12,10 @@
   --default-font:  "EB Garamond", serif;
 }
 
-/* body */
 
+
+
+/* navbar */
 #navbar {
   /* max-width: 1200px; */
   /* background: #2596be; */
@@ -76,7 +78,7 @@
 }
 .header-text {
   text-align: center;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
   font-family: 'iFont-sf-dregular', sans-serif;
 
@@ -90,6 +92,7 @@
   border-radius: 15px;
   margin: 5px auto;
   padding: 5px;
+  color: #000;
 
 }
 .banner-astronomy {
@@ -99,6 +102,13 @@
   background-position: center;
 }
 
+/* Banner Biology */
+.biology-banner {
+  background-image: url('../course-img/biology-img/bio-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .people-banner {
   width: 700px;
