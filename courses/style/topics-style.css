@@ -173,7 +173,9 @@ margin: 5px auto;
   margin-left: 12vw;
 
 }
-
+.info-link {
+  color: #fff;
+}
 .astro-term-list {
   margin-left: 5vw;
 }
