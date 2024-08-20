@@ -115,14 +115,14 @@ margin: 5px auto;
   border-radius: 20px;
   margin-left: 25vw;
 }
-.astro-topic-text,.topic-cover-text {
+.astro-topic-text, .topic-cover-text {
   /* padding: 10px 0px; */
   width: 70vw;
   font-family: var(--default-font);
   font-size: 24px;
   color: #fff;
   line-height: 1.2;
-  margin-left: 10vw;
+  margin-left: 7vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow with 70% opacity */
   padding: 20px;
   font-weight: 500;
