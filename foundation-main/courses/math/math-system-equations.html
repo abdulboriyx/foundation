@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math system-equations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7bc36397e6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="math-system-equations.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+
+  <div id="navbar">
+    <div class="navbar-container">
+
+
+
+  <ul class="navbar-list">
+    <a class="icon-link" href="file:///E:/Freelance/foundation/high-school.html"><img src="https://cdn-icons-png.flaticon.com/512/124/124610.png" alt="icon" class="saturn-icon"></a>
+    <a href="file:///E:/Freelance/foundation/high-school.html"><li class="list-item">Home</li></a>
+    <a href="file:///E:/Freelance/foundation/high-school.html#courses"><li class="list-item">Courses</li></a>
+    <a href="#"><li class="list-item">Contacts</li></a>
+
+
+  <li class="list-item">
+  <div class="dropdown">
+  <input type="text" placeholder="Search">
+  <a href="#">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </a>
+</div>
+</li>
+  </ul>
+  </div>
+  </div>
+
+
+<!-- CONTENT -->
+
+  <div class="bg-system-equations">
+    <h1 class="system-equations-header">System of linear equations</h1>
+    <img src="../img/system-removebg-preview.png" alt="decimal-img" class="system-equations-bg">
+  </div>
+
+  <div class="container">
+    <div class="main-content">
+    <div class="header-container">
+    <h2 class="system-equations-header">What is system of linear equations?</h2>
+    <p class="system-equations-text">
+      A system of linear equations is a collection of two or more linear equations involving the same set of variables. The goal is to find the values of the variables that satisfy all equations simultaneously, making them true. </p>
+    </div>
+      <!-- Types of system of linear equations -->
+<div class="types-container">
+  <h2 class="system-equations-header">
+   Types of system equations
+  </h2>
+
+
+
+  <ol class="list-system">
+    <li class="system-equations-text">
+      <b>Consistent and Independent Systems:</b> A consistent and independent system of linear equations is a system in which there is exactly one unique solution. This occurs when the equations represent lines (in two variables) or planes (in three variables) that intersect at precisely one point.
+      <ul class="list-system">
+        <li class="system-equations-list-text">
+          2x + 3y = 6 <br>
+          y = 2
+        </li>
+
+      </ul>
+    </li>
+
+    <!-- Consistent and dependent systems -->
+    <li class="system-equations-text">
+      <b>Consistent and Dependent Systems:</b> A consistent and dependent system of linear equations is a system where the equations represent the same line or plane. This means there are infinitely many solutions because every point on the line or plane satisfies both equations.
+      <ul class="list-system">
+        <li class="system-equations-list-text">
+         2x + 4y = 8 <br>
+          x + 2y = 4
+        </li>
+        </ul>
+    </li>
+
+
+    <!-- incosistent system -->
+
+    <li class="system-equations-text">
+      <b>Incosistent systems:</b> An inconsistent system of linear equations is a system where the equations represent lines or planes that do not intersect at any point. This means there is no solution to the system because there are no points that satisfy all the equations simultaneously.
+
+      <ul class="list-system">
+        <li class="system-equations-list-text">
+          x + y = 2 <br>
+          x + y = 5
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+
+</div>
+
+
+<!-- SOLUTION -->
+
+      <div class="solution-container">
+      <h2 class="system-equations-header">Solving system of linear equations</h2>
+
+
+      <p class="system-equations-text">
+        When solving systems of linear equations with two variables, the goal is to find the point (or points) where the equations intersect. We will learn these methods:
+        <b>substituion method and elimination (or addition) method</b>
+      </p>
+
+      <!-- Substitution method -->
+      <div class="substitution-method">
+        <h2 class="system-equations-header">Substitution method</h2>
+        <p class="system-equations-text">
+        <b>Substituion method:</b> The substitution method involves solving one of the equations for one variable and then substituting that expression into the other equation. This reduces the system to a single equation with one unknown, which can be solved directly. <br>
+        <b>Example:</b></p>
+
+        <ul class="list-system">
+          <li class="system-equations-list-text">
+            x + 2y = 8 <br>
+            3x - y = 7
+          </li>
+        </ul>
+
+
+        <ol class="system-list">
+
+          <li class="system-equations-text system-equations-method-list">
+            <b>Solve one of the equations for one variable:</b> We'll solve the first equation for <i>x</i>:
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                x + 2y = 8 to x = 8 - 2y
+              </li>
+            </ul>
+          </li>
+
+            <li class="system-equations-text system-equations-method-list">
+              <b>Substitute the expression for <i>x</i> into the second equation:</b>
+              Substitute x = 8 - 2y into the second equations:
+
+             <ul class="list-system">
+              <li class="system-equations-list-text">
+                3(8 - 2y) - y = 7
+              </li>
+             </ul>
+            </li>
+
+            <li class="system-equations-text system-equations-method-list">
+              <b>Solve the resulting single-variable equation:</b>
+
+              <ul class="list-system system-zero">
+                <li class="system-equations-list-text">
+                  24 - 6y - y = 7  </li>
+                <li class="system-equations-list-text">  24 - 7y = 7 </li>
+                <li class="system-equations-list-text">  -7y = 7 - 24 </li>
+                <li class="system-equations-list-text">  -7y = -17 </li>
+                <li class="system-equations-list-text">  y = <math>
+                    <mfrac>
+                      <mn class="system-equations-text">17</mn>
+                      <mn class="system-equations-text">7</mn>
+                    </mfrac>
+                  </math>
+
+                </li>
+              </ul>
+            </li>
+
+
+          <li class="system-equations-text system-equations-method-list">
+            <b>Substitute <i>y</i> back into the expression for <i>x</i>:</b>
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                x = 8 - 2y
+              </li>
+              <li class="system-equations-list-text">
+                x = 8 - 2(<math>
+                  <mfrac>
+                    <mn class="system-equations-text">17</mn>
+                    <mn class="system-equations-text">7</mn>
+                  </mfrac>
+                </math>)
+              </li>
+
+              <li class="system-equations-list-text">
+                x = 8 - <math>
+                  <mfrac>
+                    <mn class="system-equations-text">34</mn>
+                    <mn class="system-equations-text">7</mn>
+                </mfrac>
+              </math>
+              </li>
+
+              <li class="system-equations-list-text">
+                x = <math>
+                  <mfrac>
+                    <mn class="system-equations-text">
+                      56
+                    </mn>
+                    <mn class="system-equations-text">
+                      7
+                    </mn>
+                  </mfrac>
+                </math> - <math>
+                  <mfrac>
+                    <mn class="system-equations-text">
+                      34
+                    </mn>
+                    <mn class="system-equations-text">
+                      7
+                    </mn>
+                  </mfrac>
+                </math>
+              </li>
+
+              <li class="system-equations-list-text">
+                x = <math>
+                  <mfrac>
+                    <mn class="system-equations-text">
+                      22
+                    </mn>
+                    <mn class="system-equations-text">
+                      7
+                    </mn>
+                  </mfrac>
+                </math>
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-method-list">
+            <b>Check the solution in  both original equations:</b>  Substitute x =
+            <math>
+              <mfrac>
+                <mn class="system-equations-text">
+                  22
+                </mn>
+                <mn class="system-equations-text">
+                  7
+                </mn>
+              </mfrac>
+            </math> and y = <math>
+              <mfrac>s
+                <mn class="system-equations-text">
+                  17
+                </mn>
+                <mn class="system-equations-text">
+                  7
+                </mn>
+              </mfrac>
+            </math> into the original equations to verify. For x + 2y = 8:
+
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                <math>
+                  <mfrac>
+                <mn class="system-equations-list-text">
+                  22
+                </mn>
+                <mn class="system-equations-list-text">
+                  7
+                </mn>
+                  </mfrac>
+                </math>
+                + 2 (<math>
+                  <mfrac>
+                    <mn class="system-equations-list-text">
+                      17
+                    </mn>
+                    <mn class="system-equations-list-text">
+                      7
+                    </mn>
+                  </mfrac>
+                </math> )
+
+                <math>
+
+                   <mfrac>
+                   <mn class="system-equations-list-text">
+                      56
+                    </mn>
+                    <mn class="system-equations-list-text">
+                      7
+                    </mn>
+                  </mfrac>
+                </math> = 8
+              </li>
+              </ul>
+              <p class="system-equations-text">
+                For 3x - y = 7:
+                <ul class="list-system">
+                  <li class="system-equations-list-text">
+                    3( <math>
+                      <mfrac>
+                        <mn class="system-equations-list-text">
+                          22
+                        </mn>
+                        <mn class="system-equations-list-text">
+                          7
+                        </mn>
+                      </mfrac>
+                    </math>)
+                    - <math>
+                      <mfrac>
+                        <mn class="system-equations-list-text">
+                          17
+                        </mn>
+                        <mn class="system-equations-list-text">
+                          7
+                        </mn>
+                      </mfrac>
+                    </math>
+                      <math>
+                      <mfrac>
+                        <mn class="system-equations-list-text">
+                          49
+                        </mn>
+                        <mn class="system-equations-list-text">
+                          7
+                        </mn>
+                      </mfrac>
+                    </math> = 7
+                  </li>
+                </ul>
+              </p>
+          </li>
+
+          <li class="system-equations-text system-equations-method-list">
+            <b>Solution:</b> The final result is
+
+              x = <math>
+                <mfrac>
+                  <mn class="system-equations-text">
+                    22
+                  </mn>
+                  <mn class="system-equations-text">
+                    7
+                  </mn>
+                </mfrac>
+
+              </math>,
+
+              y = <math>
+                <mfrac>
+                  <mn class="system-equations-text">
+                    17
+                  </mn>
+                  <mn class="system-equations-text">
+                    7
+                  </mn>
+                </mfrac>
+              </math>
+          </li>
+
+        </ol>
+      </div>
+
+      <!-- Elimination method -->
+      <div class="elimination-method">
+        <h2 class="system-equations-header">Elimination method for Solving Systems of Equations</h2>
+        <p class="system-equations-text">The elimination method involves adding or subtracting the equations in a system to eliminate one of the variables. This reduces the system to a single equation with one unknown, which can be solved directly. <br>
+        <b>Example:</b></p>
+
+          <ul class="list-system">
+            <li class="system-equations-list-text">
+              2x + 3y = 13 <br>
+              4x - y = 5
+            </li>
+          </ul>
+
+          <!-- STEP 1 -->
+        <ol class="system-list">
+          <li class="system-equations-text system-equations-list-text">
+            <b>Align the equations:</b>
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                2x + 3y = 13 <br>
+                4x - y = 5
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-list-text">
+            <b>Make the coefficients of y opposites:</b> Multiply the second equation by 3.
+
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                2x + 3y = 13 <br>
+                3(4x - y) = 3(5) <br>
+                12x - 3y = 15
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-list-text">
+            <b>Add the equations to eliminate y:</b>
+
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                (2x + 3y) + (12x - 3y) = 13 + 15 <br>
+                14x = 28 <br>
+                x = 2
+
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-list-text">
+            <b>Substitute x = 2 back into one of the original equations:</b> Use the first equation.
+
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                2x + 3y = 13 <br>
+                2(2) + 3y = 13 <br>
+                4 + 3y = 13 <br>
+                3y = 13- 4 <br>
+                3y = 9 <br>
+                y = 3
+
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-list-text">
+            <b>Check the solution in both original equations:</b>
+            <p class="system-equations-text">
+              For 2x + 3y = 13:
+            </p>
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                2(2) + 3(3) = 4 + 9 = 13
+              </li>
+            </ul>
+            <p class="system-equations-text">
+              For 4x - y = 5:
+            </p>
+            <ul class="list-system">
+              <li class="system-equations-list-text">
+                4(2) - 3 = 8 - 3 = 5
+              </li>
+            </ul>
+          </li>
+
+          <li class="system-equations-text system-equations-list-text">
+            <b>Solution:</b> The final result is x = 2, y = 3.
+          </li>
+        </ol>
+      </div>
+
+
+
+
+
+</div>
+
+
+
+            <!-- Quiz -->
+        <div class="quiz-container">
+        <h2 class="system-equations-header">Quizzes:</h2>
+        <!-- quiz one -->
+        <p class="system-equations-text">1. A company sells two products, A and B. Product A sells for $10 per unit, and product B for $15 per unit. The company sold a total of 200 units, earning $2500 in revenue. How many units of each product were sold?
+
+          </p>
+          <input type="text" class="system-equations-input system-equations-input-zero">
+          <p class="quizz-answer-first"></p>
+
+        <!-- quiz two -->
+        <p class="system-equations-text">2. A group of people purchases a total of 120 tickets for a trip. Bus tickets cost $3 each, and train tickets cost $5 each. The total cost of tickets is $460. How many tickets of each type were purchased?
+        </p>
+
+        <input type="text" class="system-equations-input system-equations-input-one">
+        <p class="quizz-answer-second"></p>
+
+           <!-- quiz third -->
+        <p class="system-equations-text">3. An investor has $10,000 to invest in two types of bonds: Bond X pays 4% annual interest, and Bond Y pays 5% annual interest. The investor wants to earn $450 in interest per year. How much should be invested in each bond?</p>
+
+        <input type="text" class="system-equations-input system-equations-input-two">
+        <p class="quizz-answer-third"></p>
+
+        <!-- quiz fourth  -->
+        <p class="system-equations-text">4. A school is selling two types of products for a fundraiser: cookies and brownies. Each cookie costs $1, and each brownie costs $2. The school sold a total of 300 items, raising $500. How many cookies and brownies were sold?</p>
+
+        <input type="text" class="system-equations-input system-equations-input-three">
+        <p class="quizz-answer-fourth"></p>
+
+        <!-- quiz fifth -->
+        <p class="system-equations-text">5. A chemist needs to create 30 liters of a 25% acid solution by mixing a 15% acid solution with a 40% acid solution. How many liters of each solution should be mixed?</p>
+        <input type="text" class="system-equations-input system-equations-input-four">
+        <p class="quizz-answer-fifth"></p>
+
+        <!-- CLOSE ENDED QUIZ -->
+        <form>
+          <p class="system-equations-text">
+            6. Solve for the equation:
+             <p class="system-equations-text quiz-text"> y = 2x + 3 <br>
+              3x + y = 9</p>
+          <p class="system-equations-text ">
+          <input type="radio" name="q1" value="A"> A) x = 1, y = 5<br>
+          <input type="radio" name="q1" value="B"> B) x = 2, y = 7<br>
+          <input type="radio" name="q1" value="C"> C) x = -1, y = 1<br>
+          <input type="radio" name="q1" value="D"> D) x = 3, y = 9<br>
+        </p>
+
+        </p>
+
+
+          <p class="system-equations-text">7. Solve for the equation:
+            <p class="system-equations-text quiz-text">
+              x = y - 2 <br>
+              3x + 2y = 12
+            </p>
+          </p>
+          <p class="system-equations-text">
+          <input type="radio" name="q2" value="A"> A) x = 2, y = 4<br>
+          <input type="radio" name="q2" value="B"> B) x = 0, y = 2<br>
+          <input type="radio" name="q2" value="C"> C) x = 3, y = 5<br>
+          <input type="radio" name="q2" value="D"> D) x = 1, y = 3<br>
+            </p>
+
+
+          <p class="system-equations-text">8.  Solve for the equation:</p>
+          <p class="system-equations-text quiz-text">
+            2x + 3y = 13 <br>
+            4x - 3y = 5
+          </p>
+            <p class="system-equations-text">
+          <input type="radio" name="q3" value="A"> A) x = 3, y = 2<br>
+          <input type="radio" name="q3" value="B"> B) x = 4, y = -1<br>
+          <input type="radio" name="q3" value="C"> C) x = 2, y = 3<br>
+          <input type="radio" name="q3" value="D"> D) x = -1, y = 1<br>
+  </p>
+
+          <p class="system-equations-text">9. Solve for the equation:</p>
+          <p class="system-equations-text quiz-text">
+            5x + 2y = 7 <br>
+            3x - 2y = 5
+          </p>
+          <p class="system-equations-text">
+          <input type="radio" name="q4" value="A"> A) x = 2, y = -1<br>
+          <input type="radio" name="q4" value="B"> B) x = 1, y = -1<br>
+          <input type="radio" name="q4" value="C"> C) x = 3, y = 0<br>
+          <input type="radio" name="q4" value="D"> D) x = 4, y = -1<br>
+        </p>
+
+          <p class="system-equations-text">10. Solve for the equation:</p>
+          <p class="system-equations-text quiz-text">
+            y = -x + 4 <br>
+            2x + y = 5
+          </p>
+          <p class="system-equations-text">
+          <input type="radio" name="q5" value="A"> A) x = 1, y = 3<br>
+          <input type="radio" name="q5" value="B"> B) x = 2, y =2<br>
+          <input type="radio" name="q5" value="C"> C) x = 3, y = 1<br>
+          <input type="radio" name="q5" value="D"> D) x = 4, y = 0<br>
+            </p>
+            </form>
+
+
+        <button onclick="
+        answerQuizz();
+        " class="system-equations-button">Submit</button>
+      </div>
+    </div>
+  </div>
+<!-- sidecontent -->
+
+    <div class="math-topics-container">
+      <h1 class="math-topics-header">TOPICS:</h1>
+      <div class="grid-container">
+    <a href="math-numbers.html" class="sidebar-topic">Numbers</a>
+
+    <a href="math-place-value.html" class="sidebar-topic">Place value</a>
+
+    <a href="math-basic-arithmetic.html" class="sidebar-topic">Basic arithmetic operations</a>
+
+    <a href="math-fraction.html" class="sidebar-topic">Fractions</a>
+
+    <a href="math-decimals.html" class="sidebar-topic">Decimals</a>
+
+    <a href="math-expressions.html" class="sidebar-topic">Expressions</a>
+
+
+    <a href="math-patterns.html" class="sidebar-topic factoring-topic">Pattern and sequences</a>
+
+    <a href="measurement-unit.html" class="sidebar-topic">Measurement units</a>
+
+    <a href="math-geometry.html" class="sidebar-topic">Geometry basics</a>
+<div class="second-line">
+    <a href="math-perimeter.html" class="sidebar-topic">Perimeter and area</a>
+
+    <a href="math-proportions.html" class="sidebar-topic">Proportion</a>
+
+
+    <a href="math-system-equations-unknown.html" class="sidebar-topic">Equations with one unknown</a>
+
+    <a href="math-inequalities.html" class="sidebar-topic">Inequalties</a>
+
+    <a href="math-absolute-value.html" class="sidebar-topic">Absolute value</a>
+
+    <a href="system-equations.html" class="sidebar-topic">System of equations</a>
+
+
+    <a href="math-linear-equation.html" class="sidebar-topic">Equations with two unknown</a>
+
+    <a href="ratio-rates.html" class="sidebar-topic">Exponents</a>
+
+    <a href="math-growth.html" class="sidebar-topic">Linear and exponential growth</a>
+
+  </div>
+</div>
+  </div>
+
+<hr>
+
+
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="footer-container">
+    <a class="icon-link" href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124610.png" alt="icon" class="saturn-icon"></a>
+
+    <ul class="footer-list">
+
+      <li class="footer-list-list"><a href="#">Home</a></li>
+      <li class="footer-list-list"><a href="#">Courses</a></li>
+      <li class="footer-list-list"><a href="#">Contacts</a></li>
+
+    </ul>
+    </div>
+
+
+</footer>
+
+  <script src="system-equations.js"></script>
+</body>
+</html>
