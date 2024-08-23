@@ -12,7 +12,7 @@
 /* body */
 
 body {
-  background-color: #ffff69;
+  background-color: #fff;
 }
 
 
@@ -107,9 +107,9 @@ margin: 5px auto;
   width: 1200px;
   margin: 10px auto;
   padding: 10px;
-  border: 1px solid #1f961f;
+  border: 1px solid #000;
   border-radius: 20px;
-  background-color: #1f961f;
+  background-color: #1b1a1a;
 }
 .astro-video, .topic-video {
   border-radius: 20px;
