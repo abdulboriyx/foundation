@@ -113,7 +113,7 @@ margin: 5px auto;
 }
 .astro-video, .topic-video {
   border-radius: 20px;
-  margin-left: 25vw;
+  margin-left: 24vw;
 }
 .astro-topic-text, .topic-cover-text {
   /* padding: 10px 0px; */
@@ -144,6 +144,14 @@ margin: 5px auto;
   object-fit: cover;
   margin: 5px 0;
   margin-left: 12vw;
+  border: 1px solid #1f961f;
+  border-radius: 20px;
+}
+.period-img {
+  width: 1000px;
+  height: 500px;
+  object-fit: contain;
+  margin-left: 8vw;
   border: 1px solid #1f961f;
   border-radius: 20px;
 }
