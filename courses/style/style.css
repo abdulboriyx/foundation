@@ -109,6 +109,17 @@
   background-size: cover;
   background-position: center;
 }
+.chemistry-banner {
+  background-image: url('https://courier.unesco.org/sites/default/files/styles/best_image/article/courier/photos/gettyimages-922988402.jpg?itok=JblirhbO');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.chemistry-header, .chemistry-banner-text {
+  color: #000;
+}
 
 .people-banner {
   width: 700px;
