@@ -116,6 +116,13 @@
   background-position: center;
 }
 
+.cs-banner {
+  background-image: url('https://sciences.sorbonne-universite.fr/sites/default/files/media/2023-01/Engineering%20and%20Computer%20Science%281%29.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 .chemistry-header, .chemistry-banner-text {
   color: #000;
