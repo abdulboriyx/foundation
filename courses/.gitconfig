@@ -1,0 +1,14 @@
+ name = MacBook
+ email = zerozae@MacBook-Air.local[user] 
+name = abdulboriyx
+email = kdcontent18@gmail.com
+
+
+
+^X
+# This is Git's per-user configuration file.
+[user]
+	email = kdcontent18@gmail.com
+Please adapt and uncomment the following lines:
+	name = MacBook
+	email = zerozae@MacBook-Air.local
