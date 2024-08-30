@@ -15,18 +15,7 @@
 
 
 
-<<<<<<< HEAD
-/* navbar */
-#navbar {
-  /* max-width: 1200px; */
-  /* background: #2596be; */
-}
-#navbar-astronomy {
-  /* background-color: var(--astronomy-background); */
-}
 
-=======
->>>>>>> 6486cce (CS)
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -224,14 +213,10 @@ border-radius: 20px;
 }
 
 /* Footer */
-<<<<<<< HEAD
 #footer {
   /* background-color: #2596be; */
 
 }
-=======
-  
->>>>>>> 6486cce (CS)
 #footer-astronomy {
   margin-top: 40px;
 }
