@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../img/f-solid.svg">
+  <title>Data Structure</title>
+  <script src="https://kit.fontawesome.com/7bc36397e6.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="../style/topics-style.css">
+</head>
+<body>
+<header>
+  <div id="astro-navbar intro-navbar">
+  <div class="navbar-container">
+    <p class="logo-text">The Foundation</p>
+    <i class="fa-solid fa-f logo-icon"></i>
+
+    <ul class="navbar-list">
+      <li class="navbar-list-list"><a href="/foundation/high-school.html">Home</a></li>
+      <li class="navbar-list-list"><a href="/foundation/high-school.html#courses">Courses</a></li>
+      <li class="navbar-list-list"><a href="#">Contacts</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+<!-- Header -->
+<div class="banner-container">
+<h1 class="topic-banner data-str-header">
+Data Structures
+</h1>
+
+<div class="topic-banner programming-banner">
+  <img src="../course-img/cs-image/cs-data-str.jpg" alt="Data Structure Banner Img" class="topic-banner-img">
+</div>
+</div>
+
+</header>
+
+
+    <!-- What is Data Structure? -->
+  <div class="topic-cover data-str-def">
+    <h1 class="topic-header">
+      What is Data Structure? 
+    </h1>
+    <p class="topic-cover-text">
+      A data structure is a specialized format for organizing, processing, and storing data in a computer system. It defines the relationship between the data elements and provides a way to manage and access data efficiently. Data structures are fundamental to computer science as they enable efficient data manipulation and retrieval, influencing the performance and capability of algorithms. Examples of data structures include arrays, linked lists, stacks, queues, trees, and graphs. Each data structure has specific properties and is chosen based on the requirements of the task at hand, such as the need for quick access, insertion, or deletion of data.
+      <br> <br>
+
+      Consider a library system where you need to manage a collection of books. If you use an array as a data structure, each book can be indexed by a number, allowing for quick access if you know the index. However, if books are frequently added or removed, a linked list might be more efficient as it allows dynamic insertion and deletion without reorganizing the entire list. For more complex operations like finding books based on various attributes (e.g., genre, author), a tree or hash table might be employed to facilitate faster searches and sorting. Thus, the choice of data structure directly impacts how efficiently you can manage and retrieve information in the library system.
+    </p>
+    <iframe class="topic-video" width="560" height="315" src="https://www.youtube.com/embed/SFEROgwxicA?si=GQqw_Cn5TN_LjPMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+ 
+
+  <!-- Why is it essential to learn Data Structure? -->
+  <div class="topic-cover data-str-importance">
+    <h1 class="topic-header">
+      Why is it essential to learn Data Structures?
+    </h1>
+    <p class="topic-cover-text">
+      Understanding data structures is fundamental for optimizing performance in software development. Data structures such as arrays, linked lists, trees, and hash tables are the building blocks for organizing and managing data efficiently. For instance, choosing the right data structure can significantly impact the speed and efficiency of algorithms. Consider a scenario where a company needs to develop a search engine that can handle millions of queries per second. Utilizing hash tables allows for average-case constant time complexity for lookups, which is crucial for such high-performance requirements. In contrast, using a linear data structure like a list could result in linear time complexity, drastically slowing down the search process. Knowledge of data structures enables developers to make informed decisions about which structures to use based on their specific needs, ensuring that software applications are both fast and responsive. This is particularly important in environments where performance and scalability are critical, such as in real-time systems, large-scale web applications, and high-frequency trading platforms.
+      <br> <br>
+
+      Learning data structures enhances problem-solving skills and algorithm design capabilities. Data structures provide a way to abstract and model complex relationships and operations, making it easier to design efficient algorithms. For example, understanding trees and graphs can help in solving problems related to hierarchical data and network paths, such as in navigation systems or organizational charts. When faced with a problem, such as finding the shortest path in a network or optimizing resource allocation, selecting and implementing the right data structure can lead to more elegant and efficient solutions. This knowledge also helps in breaking down complex problems into manageable parts, which is a key skill in software engineering. Moreover, being proficient in data structures allows developers to better understand and apply various algorithms, such as sorting and searching, which are crucial for tasks ranging from data analysis to artificial intelligence. Ultimately, this expertise fosters a deeper understanding of computational theory and enhances the ability to tackle a wide range of technical challenges.
+      <br> <br>
+
+      Data structures play a critical role in effective data management and analysis. In today’s data-driven world, organizations need to manage, analyze, and extract insights from vast amounts of data. Choosing the appropriate data structure can make a significant difference in how efficiently this is done. For instance, databases use various data structures like B-trees or B+ trees to manage and index large volumes of data, facilitating quick retrieval and updates. Similarly, in big data environments, structures such as bloom filters and trie trees are employed to handle massive datasets and perform operations like data deduplication and pattern matching. Understanding these structures helps data scientists and engineers design systems that can handle large-scale data processing tasks efficiently, whether it's for real-time analytics, data warehousing, or machine learning. By leveraging appropriate data structures, professionals can optimize storage, reduce computational overhead, and ensure that data management processes are both scalable and performant, ultimately leading to more effective decision-making and strategic insights.
+      </p>
+  </div>
+
+<!-- Types of Data Structures -->
+ <div class="topic-cover data-str-type">
+      <h1 class="topic-header">
+       Types of Data Structures
+      </h1>
+    
+      <!-- Arrays -->
+      <h2 class="topic-header">
+       Arrays
+      </h2>
+      <p class="topic-cover-text">
+            Arrays are one of the most fundamental data structures, widely used for storing collections of elements. An array is a contiguous block of memory where each element is of the same data type and is accessed via an index. The primary advantage of arrays is their simplicity and efficiency in accessing elements, as the position of any element can be determined in constant time <i>O(1)</i> using its index. For example, in a simple program that manages a list of student grades, an array can be used to store the grades where each index represents a specific student. If the grades are stored in an array <b>'grades'</b> where <b>'grades[0]'</b> represents the grade of the first student, <b>'grades[1]'</b> represents the grade of the second student, and so on, accessing the grade of any student is immediate. However, arrays have limitations: their size must be defined at the time of creation, and resizing them requires creating a new array and copying over the elements, which can be inefficient. Despite these limitations, arrays are foundational and form the basis for more complex data structures like lists and matrices. <a href="https://en.wikipedia.org/wiki/Array_(data_structure)" class="info-link">More about Arrays</a>
+      </p>
+
+      <!-- Linked Lists -->
+       <h2 class="topic-header">
+        Linked Lists
+       </h2>
+       <p class="topic-cover-text">
+            Linked lists offer a flexible way of organizing data that allows for efficient insertion and deletion of elements. Unlike arrays, linked lists do not require contiguous memory allocation; instead, they consist of a series of nodes, each containing data and a reference (or pointer) to the next node in the sequence. This structure enables dynamic memory usage and can efficiently handle scenarios where the number of elements is not known in advance or changes frequently. For example, in a dynamic to-do list application where tasks are frequently added or removed, a linked list can be used to manage tasks. Each node in the list represents a task and contains a reference to the next task, facilitating easy insertion and deletion without shifting other elements. However, linked lists come with a trade-off: while they offer constant time <i>O(1)</i> complexity for insertions and deletions, accessing an element requires linear time <i>O(n)</i> as one must traverse the list from the beginning. This makes linked lists less efficient for scenarios where random access to elements is required. <a href="https://en.wikipedia.org/wiki/Linked_list" class="info-link">More about Linked Lists</a>
+       </p>
+
+
+       <!-- Hash Tables -->
+        <h2 class="topic-header">
+            Hash Tables 
+        </h2>
+        <p class="topic-cover-text">      
+            Hash tables are designed to provide efficient data retrieval by using a hash function to map keys to specific indices in an array, allowing for average-case constant time <i>O(1)</i> complexity for lookups, insertions, and deletions. This makes hash tables exceptionally useful for scenarios where quick access to data is crucial. For example, consider a web application that needs to store and quickly retrieve user sessions based on session IDs. A hash table can be used where each session ID is hashed to determine its position in the table, allowing for rapid retrieval of session information. Hash collisions—where different keys hash to the same index—are managed through techniques like chaining (where each table index points to a linked list of entries) or open addressing (where alternative indices are probed). While hash tables offer excellent performance for many use cases, their efficiency can be affected by poor hash functions or high load factors. Additionally, hash tables do not maintain any order among elements, which can be a limitation in scenarios where ordered data is required. <a href="https://en.wikipedia.org/wiki/Hash_table#:~:text=In%20computing%2C%20a%20hash%20table,that%20maps%20keys%20to%20values." class="info-link">More about Hash Tables</a>
+        </p>
+
+        <!-- Trees -->
+         <h2 class="topic-header">
+           Trees
+         </h2>
+         <p class="topic-cover-text">
+            Trees are hierarchical data structures that consist of nodes connected in a parent-child relationship. Each node contains a value and references to child nodes, forming a tree-like structure. The most common type of tree is the binary tree, where each node has at most two children. Binary search trees (BSTs) are a special kind of binary tree where the left child contains a value less than the parent node and the right child contains a value greater than the parent node. This structure allows for efficient searching, insertion, and deletion operations, typically in logarithmic time <i>O(logn)</i>, assuming the tree remains balanced. For example, a file system on a computer uses a tree structure where directories are nodes and subdirectories/files are children of those nodes, allowing for efficient organization and retrieval of files. Another type of tree is the AVL tree, which is a self-balancing binary search tree, ensuring that operations remain efficient even as the tree grows. Trees are versatile and used in various applications, including parsing expressions in compilers and managing hierarchical data in databases. <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)" class="info-link">More about Trees</a>
+         </p>
+
+      <!-- Graphs -->
+       <h2 class="topic-header">
+          Graphs
+       </h2>
+       <p class="topic-cover-text">
+            Graphs are data structures used to represent networks of interconnected nodes (vertices) and the connections (edges) between them. Graphs can be either directed (where edges have a direction) or undirected (where edges do not have a direction). They can also be weighted (where edges have weights) or unweighted. Graphs are instrumental in modeling real-world relationships, such as social networks, transportation systems, and dependency graphs. For instance, a social network can be represented as a graph where each person is a vertex and each friendship is an edge connecting two vertices. Algorithms like Dijkstra’s for shortest paths or Depth-First Search (DFS) and Breadth-First Search (BFS) for traversing graphs leverage the structure of graphs to solve complex problems. Despite their versatility, graphs can be computationally intensive to manage and analyze, especially when dealing with large and dense graphs, requiring careful consideration of algorithms and data structures for efficient processing. <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)" class="info-link">More about Graphs</a>
+       </p>
+ </div>    
+
+
+<!-- Research & Inventions -->
+<div class="topic-cover data-str-research">
+      <h1 class="topic-header">
+        Research and Inventions
+      </h1>
+    
+    <!--  The Invention of Linked List -->
+      <h2 class="topic-header">
+         The Invention of Linked List
+      </h2>
+      <p class="topic-cover-text">
+            The linked list is one of the fundamental data structures that significantly advanced the field of computer science. Developed in the early 1950s by Allen Newell, Cliff Shaw, and Herbert A. Simon at the RAND Corporation, the linked list introduced a novel way to organize and manage data. Unlike arrays, which require contiguous memory allocation, linked lists use a series of nodes where each node contains data and a reference to the next node. This structure allows for dynamic memory allocation and efficient insertion and deletion operations, as elements can be added or removed without shifting other elements. The linked list laid the groundwork for many other complex data structures, such as stacks, queues, and graphs, and has been pivotal in developing efficient algorithms for various applications, including memory management and data manipulation.
+      </p>
+    
+    
+      <!-- The Development of Binary Search Tree
+     -->
+      <h2 class="topic-header">
+      The Development of Binary Search Tree
+      </h2>
+      <p class="topic-cover-text">
+            The binary search tree, introduced by computer scientist John Mauchly in the 1950s, represents a significant advancement in organizing data to facilitate efficient searching, insertion, and deletion operations. In a BST, each node has at most two children: the left child contains values less than the parent node, and the right child contains values greater than the parent node. This ordering property allows for average-case logarithmic time complexity <i>O(logn)</i> for basic operations, making BSTs highly efficient for tasks such as searching and sorting. The concept of the binary search tree has influenced numerous other data structures, including self-balancing trees like AVL trees and Red-Black trees, which maintain balance to ensure that operations remain efficient even as the tree grows. <a href="https://en.wikipedia.org/wiki/Binary_search_tree" class="info-link">More about Binary Search Trees</a>
+      </p>
+      
+    <!-- The Introduction of Hash Tables -->
+      <h2 class="topic-header">
+         The Introduction of Hash Tables
+      </h2>
+      <p class="topic-cover-text">
+            Hash tables, a data structure that revolutionized the field of computer science, were formalized by computer scientist Hans Peter Luhn in the 1950s. Hash tables use a hash function to map keys to specific indices in an array, enabling average-case constant time <i>O(1)</i> complexity for lookups, insertions, and deletions. This innovation addressed the challenge of efficiently accessing data in large datasets. The concept of hashing has since been applied to a wide range of problems, from database indexing to cryptography. Hash tables have become a cornerstone of modern computer science due to their ability to provide fast and efficient access to data, significantly impacting areas such as algorithm design, database management, and real-time computing.
+      </p>
+      
+    
+      <!-- The Creation of B-tree
+     -->
+      <h2 class="topic-header">
+          The Creation of B-tree
+      </h2>
+      <p class="topic-cover-text">
+            The B-tree, introduced by Rudolf Bayer and Ed McCreight in 1970, is a self-balancing tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations. B-trees are particularly well-suited for systems that read and write large blocks of data, such as databases and file systems. They are characterized by their ability to balance themselves dynamically, ensuring that the tree remains balanced as elements are added or removed. This self-balancing property results in logarithmic time complexity <i>O(logn)</i> for operations, making B-trees highly effective for managing large volumes of data. The B-tree has had a profound impact on database indexing and file system organization, forming the basis for structures like B+ trees and B* trees used in modern database management systems. <a href="https://en.wikipedia.org/wiki/B-tree" class="info-link">More about B-tree</a>
+      </p>
+    
+    <!-- The Invention of Graph Algorithms -->
+      <h2 class="topic-header">
+            The Invention of Graph Algorithms
+      </h2>
+      <p class="topic-cover-text">
+            The study of graph algorithms has been essential in understanding and solving complex problems involving networks and relationships. Key advancements include Dijkstra’s algorithm for finding the shortest path in weighted graphs, developed by Edsger W. Dijkstra in 1956, and Floyd-Warshall algorithm for finding shortest paths between all pairs of nodes, introduced by Robert W. Floyd and Stephen Warshall in the late 1960s. These algorithms revolutionized the way we handle and analyze graph-based data, with applications ranging from network routing and social network analysis to optimization problems in logistics and operations research. The development of efficient graph algorithms has enabled significant progress in fields such as transportation planning, computer networking, and even artificial intelligence, where understanding and navigating complex networks is crucial. <a href="https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/" class="info-link">More about Graph Algorithms</a>
+      </p>
+    
+
+    
+    </div>
+    
+<!-- Key Problems -->
+    <div class="topic-cover data-str-key-problems">
+      <h1 class="topic-header">
+            Key Problems
+      </h1>
+
+      <!-- Efficient Handling of Dynamic and Unstructured Data -->
+      <h2 class="topic-header">     
+      Efficient Handling of Dynamic and Unstructured Data
+      </h2>
+      <p class="topic-cover-text">
+      As data volumes grow exponentially and data sources become more varied, managing dynamic and unstructured data efficiently remains a significant challenge. Traditional data structures like arrays and linked lists struggle with the scalability and flexibility required for modern applications involving big data and real-time analytics. Solutions are needed to dynamically adapt to varying data types and sizes, optimize storage and retrieval, and maintain performance as data evolves. This includes developing adaptive data structures that can efficiently handle diverse data formats such as multimedia content, complex documents, or streaming data. Additionally, integrating machine learning techniques to optimize data structures based on usage patterns and queries could greatly enhance performance and efficiency.
+      </p>
+
+      <!-- Scalability of Distributed Data Structures -->
+      <h2 class="topic-header">
+      Scalability of Distributed Data Structures
+      </h2>
+      <p class="topic-cover-text">
+            With the rise of cloud computing and distributed systems, scalability has become a critical issue for data structures used in these environments. Distributed data structures, such as distributed hash tables and distributed trees, must handle the challenges of data partitioning, replication, and consistency across multiple nodes. Current solutions often face difficulties with latency, fault tolerance, and load balancing. Innovations are required to improve how distributed data structures manage large-scale data, ensure consistency across nodes, and efficiently handle node failures or network partitions. Solving these problems is crucial for applications like distributed databases, file systems, and decentralized networks, where performance and reliability are paramount.
+      </p>
+
+      <!-- Memory Efficiency and Cache Optimization -->
+       <h2 class="topic-header">
+            Memory Efficiency and Cache Optimization
+       </h2>
+       <p class="topic-cover-text">
+            Optimizing memory usage and cache performance is a key issue in data structure design, especially for applications requiring high-speed access and processing. Modern hardware architectures, including multi-core processors and large cache hierarchies, demand data structures that minimize cache misses and efficiently use memory. Data structures must be designed to take advantage of spatial and temporal locality to enhance performance. This involves developing new techniques for cache-friendly data layout, efficient memory access patterns, and minimizing memory overhead. Solutions should address issues such as false sharing, cache coherence, and memory fragmentation to ensure that data structures perform optimally in both single-threaded and multi-threaded environments.
+
+
+       </p>
+
+       <!-- Real-Time Data Processing and Stream Management -->
+        <h2 class="topic-header">
+            Real-Time Data Processing and Stream Management
+        </h2>
+        <p class="topic-cover-text">
+            In applications such as financial trading, network monitoring, and real-time analytics, data structures must handle continuous streams of data with minimal latency. Traditional data structures are often inadequate for managing and processing real-time data efficiently. There is a need for specialized data structures that can support real-time operations, including high-speed insertions, deletions, and queries, while maintaining accuracy and consistency. Innovations in stream processing data structures, such as efficient sliding windows, probabilistic data structures for approximate querying, and real-time indexing techniques, are crucial to meet the demands of modern applications that require instant data processing and decision-making capabilities.
+        </p>
+
+        <!-- Security and Privacy in Data Structures -->
+         <h2 class="topic-header">
+            Security and Privacy in Data Structures
+         </h2>
+         <p class="topic-cover-text">
+            As data breaches and privacy concerns become more prevalent, ensuring the security and privacy of data structures is increasingly important. Data structures need to be designed with built-in security mechanisms to protect against unauthorized access, data leakage, and tampering. This includes developing techniques for secure data storage, encryption, and access control, as well as incorporating privacy-preserving methods such as differential privacy into data structures. Addressing these challenges involves creating data structures that are resilient to various types of attacks and vulnerabilities while still providing efficient performance. Solutions should focus on integrating security features seamlessly into the data structure design and ensuring that they do not compromise efficiency or usability.
+         </p>
+
+    </div>
+    
+      <!-- Facts -->
+      <div class="topic-cover data-str-facts">
+        <h1 class="topic-header">
+          Facts about Data Structures
+        </h1>
+        <p class="topic-cover-text">
+            Many people understand that data structures impact the time complexity of basic operations like insertion, deletion, and search. However, their influence extends to the overall algorithmic complexity and performance of complex systems. For example, consider a database indexing system where B-trees or B+ trees are commonly used. These trees not only optimize search operations but also affect the efficiency of range queries and batch insertions. In the case of a database management system using a B+ tree, not only are individual queries optimized, but the design of the indexing structure also affects the efficiency of bulk data operations like sorting and joining tables. Similarly, in graph algorithms, the choice of data structure—whether adjacency matrix or adjacency list—can significantly impact the performance of algorithms like Floyd-Warshall for all-pairs shortest paths or Dijkstra’s algorithm for single-source shortest paths. The underlying data structure thus plays a crucial role in shaping the performance characteristics of complex algorithms and systems, impacting their scalability and efficiency in ways that may not be immediately apparent. <br> <br>
+
+            Persistent data structures, which maintain previous versions of themselves after modifications, are essential in many advanced programming paradigms and applications. These structures support immutability, which can be crucial for functional programming languages where functions are expected to avoid side effects. For instance, a persistent linked list allows for the creation of new versions of the list without altering the original version, enabling safer and more predictable code. This is particularly important in concurrent programming and undo functionalities in applications, where maintaining previous states without duplicating entire data sets can lead to more efficient memory usage and easier debugging. Examples of persistent data structures include functional trees like AVL trees and red-black trees, which are used in functional programming languages such as Haskell. Their ability to handle immutability and versioning has profound implications for software reliability and performance. <br> <br>
+    
+            In real-time systems, where timing constraints and predictable responses are critical, the choice of data structures can directly impact system reliability and performance. Real-time systems, such as those used in embedded systems for automotive or aerospace applications, require data structures that not only meet efficiency criteria but also ensure timing guarantees. For instance, real-time operating systems might use specialized priority queues or lock-free data structures to manage tasks and scheduling in a way that guarantees response times within defined limits. Standard data structures like binary heaps or self-balancing trees might be adapted or replaced with real-time variants that offer predictable worst-case performance. This emphasis on timing predictability and performance makes real-time data structures a specialized area with implications for safety-critical systems where ensuring timely and reliable operation is essential.
+            <br> <br>
+    
+            Memory fragmentation, both internal and external, is a significant issue in dynamic memory management that can be influenced by the choice of data structures. Internal fragmentation occurs when allocated memory blocks are larger than the required size, leading to wasted space within allocated regions. External fragmentation arises when free memory is scattered in small blocks, making it difficult to allocate large contiguous blocks. Data structures like memory pools or block allocators can be designed to mitigate these issues by managing memory in fixed-size chunks or by grouping objects of similar sizes together. For example, a memory pool that uses a slab allocator can reduce fragmentation by allocating memory in predefined sizes and reusing blocks efficiently. This approach is particularly useful in systems with high allocation and deallocation rates, where fragmentation can significantly impact performance and memory utilization. <br> <br>
+    
+            In network systems, data structures are pivotal in managing and optimizing network traffic and routing. Structures like routing tables, bloom filters, and hash tables play a crucial role in handling large volumes of network packets and making routing decisions. For instance, routing tables in routers use data structures to store and quickly access routes for packet forwarding. Bloom filters, a probabilistic data structure, are used to efficiently test whether an element is a member of a set with a trade-off of false positives, which is particularly useful in network protocols for membership queries and duplicate detection. Additionally, data structures such as tries and Patricia tries are used in network address lookups to handle large address spaces efficiently. The choice of data structures affects how quickly and efficiently network systems can process data, route packets, and manage connections, thereby impacting overall network performance and reliability.
+          <br> <br>
+          </p>
+    
+         
+  
+      </div>
+
+ <!-- Quiz -->
+ <div class="quiz-container">
+      <h1 class="main-content-header">
+        Quiz
+      </h1>
+  
+            <!-- quiz one -->
+            <p class="quiz-text">1.  How did the Hubble Deep Field observation in 1995 change our understanding of the universe?</p>
+            <input type="text" class="quiz-text astro-input-zero">
+            <p class="quizz-answer-first"></p>
+  
+            <!-- quiz two -->
+            <p class="quiz-text">2. Describe one contribution of ancient Babylonians to early astronomy.</p>
+            <input type="text" class="quiz-text astro-input-one">
+            <p class="quizz-answer-second"></p>
+  
+               <!-- quiz third -->
+            <p class="quiz-text">3. Explain the impact of the Islamic Golden Age on the development of astronomy during the medieval period. </p>
+            <input type="text" class="quiz-text astro-input-two">
+            <p class="quizz-answer-third"></p>
+  
+            <!-- quiz fourth  -->
+            <p class="quiz-text">4. How did the heliocentric model proposed by Copernicus revolutionize our understanding of the solar system?</p>
+            <input type="text" class="quiz-text astro-input-three">
+            <p class="quizz-answer-fourth"></p>
+  
+            <!-- quiz fifth -->
+            <p class="quiz-text">5.  What are some of the key research areas in contemporary astronomy, and why are they significant?</p>
+            <input type="text" class="quiz-text astro-input-four">
+            <p class="quizz-answer-fifth"></p>
+  
+            <form>
+              <p class="quiz-text">6.  What is the primary focus of cosmology?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q1" value="A"> A) Study of planets and moons<br>
+              <input type="radio" name="q1" value="B"> B) Study of universe as a whole<br>
+              <input type="radio" name="q1" value="C"> C) Study of cluster-superclusters and their life cycles<br>
+              <input type="radio" name="q1" value="D"> D) Study of the Earth's atmosphere<br>
+            </p>
+  
+            </p>
+  
+  
+              <p class="quiz-text">7. Who discovered the expanding universe based on the redshift of light from distant galaxies?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q2" value="A"> A) Galileo Galilei<br>
+              <input type="radio" name="q2" value="B"> B) Isaac Newton<br>
+              <input type="radio" name="q2" value="C"> C) Edwin Hubble<br>
+              <input type="radio" name="q2" value="D"> D) Nicolaus Copernicus<br>
+                </p>
+  
+  
+              <p class="quiz-text">8. Which ancient civilization aligned the Great Pyramids of Giza with the North Star and the Orion constellation?</p>
+                <p class="quiz-text">
+              <input type="radio" name="q3" value="A"> A) Babylonians<br>
+              <input type="radio" name="q3" value="B"> B) Greeks<br>
+              <input type="radio" name="q3" value="C"> C) Chinese<br>
+              <input type="radio" name="q3" value="D"> D) Egyptians<br>
+      </p>
+              <p class="quiz-text">9. During which period did astronomers like Al-Battani and Al-Sufi make significant contributions to astronomy?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q4" value="A"> A) Renaissance<br>
+              <input type="radio" name="q4" value="B"> B) Islamic Golden Age<br>
+              <input type="radio" name="q4" value="C"> C) Classical Greece<br>
+              <input type="radio" name="q4" value="D"> D) Modern Era<br>
+            </p>
+  
+              <p class="quiz-text">10. What technological advancement enabled the Hubble Space Telescope to observe distant galaxies without atmospheric distortion</p>
+              <p class="quiz-text">
+              <input type="radio" name="q5" value="A"> A) Radio waves<br>
+              <input type="radio" name="q5" value="B"> B) Adaptive optics<br>
+              <input type="radio" name="q5" value="C"> C) Space-based positioning<br>
+              <input type="radio" name="q5" value="D"> D) Interferometry<br>
+                </p>
+                </form>
+  
+  
+  
+            <button onclick="
+            answerQuizz();
+            " class="astro-button">Submit</button>
+  
+    </div>
+
+
+
+<footer id="footer-biology">
+  <div class="footer-container">
+    <p class="logo-text">The Foundation</p>
+    <i class="fa-solid fa-f logo-icon"></i>
+
+    <ul class="footer-list">
+      <li class="footer-list-list"><a href="#">Home</a></li>
+      <li class="footer-list-list"><a href="#">Courses</a></li>
+      <li class="footer-list-list"><a href="#">Contacts</a></li>
+
+    </ul>
+    </div>
+
+
+</footer>
+
+</body>
+</html>
