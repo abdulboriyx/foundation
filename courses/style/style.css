@@ -114,6 +114,13 @@
   background-size: cover;
   background-position: center;
 }
+.econ-banner {
+  background-image: url('https://img.freepik.com/free-vector/hand-drawn-flat-design-stock-market-concept_23-2149154266.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
 
 
 .chemistry-header, .chemistry-banner-text {
