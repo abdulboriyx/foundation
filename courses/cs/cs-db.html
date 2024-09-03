@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../img/f-solid.svg">
+  <title>Databases</title>
+  <script src="https://kit.fontawesome.com/7bc36397e6.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="../style/topics-style.css">
+</head>
+<body>
+<header>
+  <div id="astro-navbar intro-navbar">
+  <div class="navbar-container">
+    <p class="logo-text">The Foundation</p>
+    <i class="fa-solid fa-f logo-icon"></i>
+
+    <ul class="navbar-list">
+      <li class="navbar-list-list"><a href="/foundation/high-school.html">Home</a></li>
+      <li class="navbar-list-list"><a href="/foundation/high-school.html#courses">Courses</a></li>
+      <li class="navbar-list-list"><a href="#">Contacts</a></li>
+    </ul>
+
+
+    </div>
+  </div>
+<!-- Header -->
+<div class="banner-container">
+<h1 class="topic-banner db-header">
+Databases
+</h1>
+
+<div class="topic-banner oop-banner">
+  <img src="../course-img/cs-image/cs-db.jpg" alt="Database Banner Img" class="topic-banner-img">
+</div>
+</div>
+
+</header>
+
+
+    <!-- What is Database? -->
+  <div class="topic-cover db-def">
+    <h1 class="topic-header">
+      What is Database? 
+    </h1>
+    <p class="topic-cover-text">
+      A database is a systematically organized collection of data that is stored and managed to ensure easy access, retrieval, and modification. It is designed to store large amounts of information in a way that can be efficiently queried and manipulated. Databases are used in various domains, such as business, education, healthcare, government, and more, to manage data ranging from customer records to inventory, financial transactions, and beyond. A database consists of tables that contain rows (records) and columns (fields), where each column represents a specific attribute, and each row represents a single record within the table. The data in a database can be related, meaning that different pieces of information stored in different tables can be linked together to provide a comprehensive view of the stored data. This relational aspect is managed by a Database Management System (DBMS), which provides tools for defining, constructing, manipulating, and maintaining databases. A DBMS serves as an intermediary between users and the database, allowing them to interact with the data without needing to understand the complex underlying structures. DBMSs also enforce rules and constraints to maintain data integrity, such as ensuring that no two records in a table have the same unique identifier or that a record in one table references a valid record in another table. Popular DBMS software includes MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server, and SQLite, among others. These systems also support different types of databases, such as relational databases, NoSQL databases, and in-memory databases, each optimized for specific use cases and types of data.
+      <br> <br>
+
+      Imagine an e-commerce website that uses a database to manage its operations. This database might include several interconnected tables, such as `Customers`, `Products`, `Orders`, and `Payments`. The `Customers` table would store information about users who have registered on the platform, with fields like `CustomerID`, `Name`, `Email`, `Phone`, and `Address`, where `CustomerID` uniquely identifies each customer. The `Products` table would contain details about items for sale, including `ProductID`, `ProductName`, `Category`, `Price`, and `StockQuantity`, with `ProductID` serving as the unique identifier for each product. The `Orders` table would track transactions made by customers, with records containing `OrderID`, `CustomerID`, `OrderDate`, and `TotalAmount`, linking back to the `Customers` table to show which customer placed each order. The `Payments` table would then record the payment details associated with each order, including `PaymentID`, `OrderID`, `PaymentDate`, `PaymentMethod`, and `PaymentStatus`, where `OrderID` links to the `Orders` table, indicating the payment's corresponding order. This interconnected structure allows the e-commerce platform to efficiently manage customer data, product inventory, order processing, and payment tracking, providing a seamless experience for users by enabling quick searches, updates, and reporting across the entire system.
+    </p>
+    <iframe class="topic-video" width="560" height="315" src="https://www.youtube.com/embed/hRulZhTtUTg?si=J9iLEzvzvEKFE8Y_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+ 
+
+  <!-- Why is it essential to learn Database? -->
+  <div class="topic-cover db-importance">
+    <h1 class="topic-header">
+      Why is it essential to learn Databases?
+    </h1>
+    <p class="topic-cover-text">
+      One of the most compelling reasons to learn databases is the ability to manage and organize data efficiently. In virtually every industry, from healthcare to finance to education, vast amounts of data are generated daily. This data needs to be stored in a way that is both organized and easily accessible. A well-designed database allows for the systematic storage of information, where data can be categorized, indexed, and retrieved with precision. For instance, in a healthcare setting, a database can store patient records, including medical history, treatment plans, and medication lists, allowing healthcare providers to quickly access and update patient information. This not only improves the quality of care but also ensures that data is accurate and up-to-date. Understanding databases gives you the skills to create and manage these systems, enabling organizations to maintain structured data that supports decision-making, reduces errors, and enhances operational efficiency.
+      <br> <br>
+
+      Learning databases is crucial for anyone looking to harness the power of data-driven decision-making. In today's world, decisions are increasingly based on data analysis rather than intuition or guesswork. Databases play a critical role in this process by storing the data that organizations analyze to identify trends, measure performance, and make informed decisions. For example, businesses use databases to track sales, monitor customer behavior, and manage supply chains. By querying a database, companies can generate reports that reveal patterns, such as which products are selling the most or which customer segments are most profitable. These insights can then be used to optimize marketing strategies, improve product offerings, and enhance customer satisfaction. Moreover, databases enable real-time data processing, allowing organizations to respond quickly to changes in the market or operational challenges. By learning databases, you gain the ability to structure and access data in a way that supports critical business functions and drives strategic initiatives.
+      <br> <br>
+
+      As our world becomes increasingly digital, the demand for professionals who can manage, analyze, and interpret data is rapidly growing. Learning databases opens up a wide range of career opportunities across various fields, including IT, business analysis, data science, software development, and more. Almost every modern organization relies on databases to store and manage data, making database management skills highly valuable in the job market. Whether you're designing complex relational databases, optimizing existing systems for better performance, or ensuring data security and integrity, expertise in databases is a critical asset. Additionally, as businesses continue to embrace big data and analytics, the ability to work with databases is essential for those looking to specialize in data science or machine learning. By mastering databases, you position yourself as a key player in any data-driven industry, with the skills to manage the backbone of organizational information systems and contribute to data-driven decision-making processes.
+      </p>
+  </div>
+
+<!-- Types of DB -->
+ <div class="topic-cover db-type">
+      <h1 class="topic-header">
+       Types of Databases
+      </h1>
+    
+      <!-- Relational Databases -->
+      <h2 class="topic-header">
+      Relational Databases
+      </h2>
+      <p class="topic-cover-text">
+            Relational databases are one of the most widely used types of databases, designed around the concept of tables (also known as relations). These tables store data in rows and columns, with each row representing a record and each column representing an attribute of the data. What makes relational databases particularly powerful is the way they enforce relationships between different tables through the use of keys—typically primary keys and foreign keys. A primary key is a unique identifier for each record in a table, while a foreign key links to a primary key in another table, creating a relationship between the two tables. This structure allows for complex queries and data manipulation across multiple tables, making relational databases highly versatile for a wide range of applications, from financial systems to customer relationship management (CRM) platforms. Relational databases use Structured Query Language (SQL) to perform operations such as data retrieval, insertion, updating, and deletion. Popular relational database management systems (RDBMS) include MySQL, PostgreSQL, Oracle Database, and Microsoft SQL Server. The relational model's ability to maintain data integrity, enforce constraints, and provide robust querying capabilities makes it an ideal choice for many enterprise-level applications where consistent, structured data storage is required. <a href="https://en.wikipedia.org/wiki/Relational_database" class="info-link">More about Relational Databases</a>
+      </p>
+
+      <!--  NoSQL Databases -->
+       <h2 class="topic-header">
+           NoSQL Databases
+       </h2>
+       <p class="topic-cover-text">
+            NoSQL databases, or "non-relational" databases, are designed to handle unstructured or semi-structured data, which does not fit neatly into tables, rows, and columns as in relational databases. They emerged as a solution to the limitations of relational databases, especially when dealing with large-scale, distributed data that requires high performance and scalability. NoSQL databases are particularly well-suited for applications involving big data, real-time analytics, and content management systems. They are categorized into several types based on their data models, including document databases, key-value stores, column-family stores, and graph databases. Document databases, like MongoDB, store data in JSON-like documents, allowing for flexible, schema-less structures. Key-value stores, such as Redis and Amazon DynamoDB, store data as key-value pairs, making them ideal for caching and session management. Column-family stores, like Apache Cassandra, are optimized for reading and writing large volumes of data across distributed systems. Graph databases, such as Neo4j, focus on the relationships between data points, making them suitable for applications like social networks and recommendation engines. NoSQL databases provide the flexibility to scale horizontally, accommodate diverse data types, and support agile development practices, which is why they are increasingly adopted in cloud-based and microservices architectures. <a href="https://en.wikipedia.org/wiki/NoSQL" class="info-link">More about NoSQL Databases</a>
+       </p>
+
+
+       <!-- In-memory Databases -->
+        <h2 class="topic-header">
+            In-Memory Databases
+        </h2>
+        <p class="topic-cover-text">      
+            In-memory databases are a type of database that stores data directly in a computer's main memory (RAM) rather than on traditional disk storage. This approach allows for significantly faster data access and processing speeds, making in-memory databases ideal for applications that require real-time analytics, high-speed transaction processing, or rapid data retrieval. In-memory databases eliminate the latency associated with disk I/O operations, allowing for sub-millisecond response times, which is critical for applications such as financial trading platforms, telecommunications, and IoT (Internet of Things) systems. To maintain data integrity and durability, many in-memory databases offer features such as snapshotting, logging, and data replication. Examples of in-memory databases include SAP HANA, Redis, and VoltDB. While the primary advantage of in-memory databases is speed, they also come with challenges such as higher costs due to the need for large amounts of RAM and potential data loss in the event of a system failure. However, for scenarios where performance is paramount and real-time data processing is a necessity, in-memory databases offer a compelling solution that outperforms traditional disk-based databases. <a href="https://en.wikipedia.org/wiki/In-memory_database" class="info-link">More about In-memory Databases</a>
+        </p>
+
+ </div>    
+
+
+<!-- Research & Inventions -->
+<div class="topic-cover db-research">
+      <h1 class="topic-header">
+        Research and Inventions
+      </h1>
+    
+    <!--  The Relational Model (1970) -->
+      <h2 class="topic-header">
+         The Relational Model (1970)
+      </h2>
+      <p class="topic-cover-text">
+            The introduction of the relational model by Edgar F. Codd in 1970 was a groundbreaking development in the history of databases. This model proposed organizing data into tables (or relations) that could be easily manipulated using a declarative language like SQL. Codd’s relational model brought a fundamental shift from hierarchical and network models to a more flexible, robust, and mathematically sound framework for managing data. It introduced concepts like primary keys, foreign keys, and normalization, which are essential for maintaining data integrity and eliminating redundancy. The relational model's principles became the foundation for modern relational database management systems (RDBMS) like Oracle, MySQL, and PostgreSQL, revolutionizing how data is stored, retrieved, and managed across various industries.
+      </p>
+    
+    
+      <!-- SQL (1970)
+     -->
+      <h2 class="topic-header">
+      SQL (Structured Query Language) (1970s)
+      </h2>
+      <p class="topic-cover-text">
+            Structured Query Language (SQL) emerged in the 1970s, closely following the development of the relational model. SQL was designed to be the standard language for managing and querying data in relational databases. Its powerful yet simple syntax allows users to perform complex queries, join multiple tables, and manage databases without needing to write extensive code. SQL quickly became the de facto standard for interacting with relational databases, and it remains the most widely used query language today. The introduction of SQL greatly enhanced the accessibility and usability of relational databases, enabling a broader range of users, from developers to analysts, to work with data effectively. <a href="https://en.wikipedia.org/wiki/SQL" class="info-link">More about SQL</a>
+      </p>
+      
+    <!-- ACID Properties (1980s) -->
+      <h2 class="topic-header">
+        ACID Properties (1980s)
+      </h2>
+      <p class="topic-cover-text">
+            The development and formalization of ACID (Atomicity, Consistency, Isolation, Durability) properties in the 1980s were crucial for ensuring the reliability and robustness of database transactions. These properties ensure that database transactions are processed reliably, even in the face of errors, system failures, or concurrent access by multiple users. Atomicity ensures that a transaction is completed in its entirety or not at all; Consistency ensures that the database remains in a valid state before and after a transaction; Isolation ensures that transactions do not interfere with each other; and Durability guarantees that once a transaction is committed, it will be permanently recorded, even in the case of a system crash. The ACID properties became a cornerstone of database management systems, particularly in environments where data integrity and consistency are critical, such as banking, finance, and e-commerce. <a href="https://en.wikipedia.org/wiki/C%2B%2B" class="info-link">More about ACID Properties<a>
+      </p>
+      
+    
+      <!-- NoSQL Databases (2000s)
+     -->
+      <h2 class="topic-header">
+          NoSQL Databases (2000s)
+      </h2>
+      <p class="topic-cover-text">
+            The emergence of NoSQL databases in the 2000s marked a significant shift in the database landscape, driven by the need to handle the massive scale and complexity of data generated by the internet and big data applications. NoSQL databases, such as MongoDB, Cassandra, and Redis, offered alternatives to the traditional relational model by supporting flexible schemas, horizontal scaling, and distributed architectures. These databases were designed to handle unstructured or semi-structured data, such as JSON, XML, or big data sets, which were not well-suited to the rigid schema requirements of relational databases. The invention of NoSQL databases enabled the development of highly scalable, high-performance applications that could handle vast amounts of data in real-time, paving the way for innovations in cloud computing, social media, and data analytics. 
+      </p>
+    
+    <!-- In-Memory Databases (2010s) -->
+      <h2 class="topic-header">
+            In-Memory Databases (2010s)
+      </h2>
+      <p class="topic-cover-text">
+            The rise of in-memory databases in the 2010s represented another leap forward in database technology, focusing on speed and performance. Unlike traditional disk-based databases, in-memory databases store data directly in the computer's RAM, allowing for rapid access and processing. This technology significantly reduces latency and increases throughput, making it ideal for applications that require real-time data processing, such as financial trading platforms, telecommunications systems, and real-time analytics. Notable in-memory databases include SAP HANA, Redis, and MemSQL. The invention of in-memory databases allowed organizations to perform complex queries and transactions with unprecedented speed, transforming industries that rely on immediate data processing and analysis.
+      </p>
+    
+
+    
+    </div>
+     
+<!-- Key Problems -->
+    <div class="topic-cover db-key-problems">
+      <h1 class="topic-header">
+      Key Problems
+      </h1>
+
+      <!-- Data Security and Privacy -->
+      <h2 class="topic-header">     
+      Data Security and Privacy
+      </h2>
+      <p class="topic-cover-text">
+            As databases increasingly store sensitive information, such as personal data, financial records, and intellectual property, data security and privacy have become critical issues. The rise in cyberattacks, data breaches, and unauthorized access to databases poses significant risks to individuals and organizations alike. A key challenge is ensuring that databases are protected against external threats, such as hacking, as well as internal risks, such as insider threats. Additionally, compliance with data protection regulations like GDPR, CCPA, and others adds complexity to database management. Immediate solutions are needed to enhance encryption methods, improve access controls, and implement advanced monitoring and anomaly detection systems to secure data. Moreover, there is a growing need for better privacy-preserving technologies, such as differential privacy and homomorphic encryption, to protect sensitive data while still allowing it to be used for analysis.
+      </p>
+
+      <!-- Scalability and Performance -->
+      <h2 class="topic-header">
+         Scalability and Performance
+      </h2>
+      <p class="topic-cover-text">
+            As the volume of data continues to grow exponentially, driven by the proliferation of IoT devices, social media, and big data applications, databases face significant challenges related to scalability and performance. Traditional relational databases often struggle to handle large-scale, distributed data workloads efficiently. NoSQL and distributed databases have addressed some of these issues, but they come with their own trade-offs, such as consistency or complexity in query languages. The immediate need is for databases that can scale horizontally across distributed environments without sacrificing performance, consistency, or reliability. Innovations in database architecture, such as multi-model databases, advanced indexing techniques, and more efficient data sharding and partitioning methods, are essential to meet the demands of modern data-intensive applications.
+      </p>
+
+      <!-- Data Integration and Interoperability -->
+       <h2 class="topic-header">
+           Data Integration and Interoperability
+       </h2>
+       <p class="topic-cover-text">
+            In today’s interconnected world, organizations often use multiple databases and data storage systems, each designed for specific purposes or business units. This creates challenges in integrating and ensuring interoperability between these disparate systems. Data integration is crucial for providing a unified view of the data, enabling comprehensive analysis, and supporting decision-making across the organization. However, the lack of standardized formats and protocols makes it difficult to combine data from different sources seamlessly. An immediate solution is required to develop more advanced data integration tools and frameworks that can handle diverse data types, support real-time data synchronization, and ensure that integrated data is accurate and consistent across platforms. This includes the need for improved ETL (Extract, Transform, Load) processes and data lakes that can bridge the gap between structured and unstructured data.
+       </p>
+
+       <!-- Maintenance and Optimization -->
+        <h2 class="topic-header">
+            Maintenance and Optimization
+        </h2>
+        <p class="topic-cover-text">
+            Database maintenance and optimization are ongoing challenges, especially as databases grow in size and complexity. Ensuring that databases perform efficiently over time requires regular maintenance tasks, such as indexing, defragmentation, and query optimization. However, these tasks can be resource-intensive and require specialized knowledge, making it difficult for organizations to keep their databases running optimally without incurring significant costs. Additionally, as database environments become more complex with hybrid and multi-cloud architectures, managing performance across these environments becomes increasingly difficult. There is an urgent need for more automated tools and technologies that can perform self-optimizing and self-healing tasks, reducing the burden on database administrators (DBAs) and improving overall system performance. Machine learning and AI-driven optimization techniques hold promise in this area but need further development and adoption.
+        </p>
+
+        <!-- Quality and Integrity -->
+         <h2 class="topic-header">
+            Data Quality and Integrity
+         </h2>
+         <p class="topic-cover-text">
+            Maintaining data quality and integrity is a persistent challenge, particularly as data is collected from diverse sources and used in various applications. Poor data quality can lead to inaccurate analysis, flawed decision-making, and increased operational costs. Data integrity issues, such as duplicate records, missing data, or inconsistent entries, can undermine trust in the database and its outputs. Ensuring data quality involves implementing robust data validation, cleaning, and governance processes, but these are often complex and time-consuming. Immediate solutions are needed to enhance automated data quality tools that can detect and correct errors in real-time, as well as to develop better data governance frameworks that enforce data integrity across the organization. This includes improving data lineage tracking, so that organizations can trace the origin and transformation of data, ensuring that it remains accurate and trustworthy throughout its lifecycle.
+         </p>
+
+    </div>
+    
+      <!-- Facts -->
+      <div class="topic-cover db-facts">
+        <h1 class="topic-header">
+          Facts about Databases
+        </h1>
+        <p class="topic-cover-text">
+            Database sharding is a less commonly discussed but essential technique for scaling databases, especially in distributed systems. Sharding involves splitting a large database into smaller, more manageable pieces, known as shards, which are distributed across multiple servers. Each shard contains a subset of the data, and together they make up the complete database. This approach can significantly improve performance and scalability by allowing the system to handle more queries and larger datasets without overwhelming a single server. However, sharding adds complexity to database management, as it requires careful planning to ensure that data is evenly distributed and that queries can be efficiently routed to the correct shard. <br> <br>
+
+            The CAP theorem, also known as Brewer's theorem, is a fundamental concept in distributed database systems that states it is impossible for a distributed system to simultaneously guarantee all three of the following properties: Consistency, Availability, and Partition Tolerance. Consistency means that all nodes see the same data at the same time; Availability means that every request receives a response, even if it's not the most recent data; Partition Tolerance means the system continues to function even if there is a network partition between nodes. The CAP theorem explains why trade-offs must be made in distributed databases—often, systems must choose two of these properties at the expense of the third. Understanding this theorem is crucial for designing distributed systems that align with specific application requirements. <br> <br>
+    
+            Database indexes are crucial but often underappreciated components that dramatically improve the speed of data retrieval operations. An index is a data structure that provides a fast way to look up rows in a database table. Without indexes, a database would have to scan every row to find the desired data, which is highly inefficient, especially with large datasets. Indexes work by creating a sorted copy of selected columns, which the database can search much faster than scanning the entire table. However, while indexes speed up read operations, they can slow down write operations (such as insertions, updates, and deletions) because the index must be updated every time the data changes. Understanding how and when to use indexes is essential for optimizing database performance.
+            <br> <br>
+    
+            While the ACID properties are well-known in the context of traditional relational databases, a lesser-known but equally important concept is BASE, which is often associated with NoSQL databases. BASE stands for Basically Available, Soft state, and Eventually consistent. Unlike ACID, which focuses on maintaining strong consistency and reliability through strict transaction rules, BASE embraces flexibility and performance by allowing for eventual consistency. This means that while the system may not be immediately consistent after a transaction, it will eventually reach a consistent state. BASE is particularly important for distributed systems where high availability and partition tolerance are prioritized. Understanding the differences between ACID and BASE helps in choosing the right database model based on the specific needs of an application. <br> <br>
+    
+            Data normalization is a less widely discussed but crucial process in database design that involves organizing the fields and tables of a relational database to minimize redundancy and dependency. The goal of normalization is to ensure that each piece of data is stored in one place only, reducing the likelihood of data anomalies such as inconsistencies or duplicates. Normalization typically involves dividing a database into two or more tables and defining relationships between the tables. This process is broken down into normal forms (1NF, 2NF, 3NF, etc.), each with specific rules for structuring the data. While normalization helps maintain data integrity, it can also complicate query performance, sometimes requiring denormalization in high-performance systems. Understanding normalization and its implications is key to effective database design and management. <br> <br>
+          </p>
+    
+         
+  
+      </div>
+
+ <!-- Quiz -->
+ <div class="quiz-container">
+      <h1 class="main-content-header">
+        Quiz
+      </h1>
+  
+            <!-- quiz one -->
+            <p class="quiz-text">1.  How did the Hubble Deep Field observation in 1995 change our understanding of the universe?</p>
+            <input type="text" class="quiz-text astro-input-zero">
+            <p class="quizz-answer-first"></p>
+  
+            <!-- quiz two -->
+            <p class="quiz-text">2. Describe one contribution of ancient Babylonians to early astronomy.</p>
+            <input type="text" class="quiz-text astro-input-one">
+            <p class="quizz-answer-second"></p>
+  
+               <!-- quiz third -->
+            <p class="quiz-text">3. Explain the impact of the Islamic Golden Age on the development of astronomy during the medieval period. </p>
+            <input type="text" class="quiz-text astro-input-two">
+            <p class="quizz-answer-third"></p>
+  
+            <!-- quiz fourth  -->
+            <p class="quiz-text">4. How did the heliocentric model proposed by Copernicus revolutionize our understanding of the solar system?</p>
+            <input type="text" class="quiz-text astro-input-three">
+            <p class="quizz-answer-fourth"></p>
+  
+            <!-- quiz fifth -->
+            <p class="quiz-text">5.  What are some of the key research areas in contemporary astronomy, and why are they significant?</p>
+            <input type="text" class="quiz-text astro-input-four">
+            <p class="quizz-answer-fifth"></p>
+  
+            <form>
+              <p class="quiz-text">6.  What is the primary focus of cosmology?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q1" value="A"> A) Study of planets and moons<br>
+              <input type="radio" name="q1" value="B"> B) Study of universe as a whole<br>
+              <input type="radio" name="q1" value="C"> C) Study of cluster-superclusters and their life cycles<br>
+              <input type="radio" name="q1" value="D"> D) Study of the Earth's atmosphere<br>
+            </p>
+  
+            </p>
+  
+  
+              <p class="quiz-text">7. Who discovered the expanding universe based on the redshift of light from distant galaxies?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q2" value="A"> A) Galileo Galilei<br>
+              <input type="radio" name="q2" value="B"> B) Isaac Newton<br>
+              <input type="radio" name="q2" value="C"> C) Edwin Hubble<br>
+              <input type="radio" name="q2" value="D"> D) Nicolaus Copernicus<br>
+                </p>
+  
+  
+              <p class="quiz-text">8. Which ancient civilization aligned the Great Pyramids of Giza with the North Star and the Orion constellation?</p>
+                <p class="quiz-text">
+              <input type="radio" name="q3" value="A"> A) Babylonians<br>
+              <input type="radio" name="q3" value="B"> B) Greeks<br>
+              <input type="radio" name="q3" value="C"> C) Chinese<br>
+              <input type="radio" name="q3" value="D"> D) Egyptians<br>
+      </p>
+              <p class="quiz-text">9. During which period did astronomers like Al-Battani and Al-Sufi make significant contributions to astronomy?</p>
+              <p class="quiz-text">
+              <input type="radio" name="q4" value="A"> A) Renaissance<br>
+              <input type="radio" name="q4" value="B"> B) Islamic Golden Age<br>
+              <input type="radio" name="q4" value="C"> C) Classical Greece<br>
+              <input type="radio" name="q4" value="D"> D) Modern Era<br>
+            </p>
+  
+              <p class="quiz-text">10. What technological advancement enabled the Hubble Space Telescope to observe distant galaxies without atmospheric distortion</p>
+              <p class="quiz-text">
+              <input type="radio" name="q5" value="A"> A) Radio waves<br>
+              <input type="radio" name="q5" value="B"> B) Adaptive optics<br>
+              <input type="radio" name="q5" value="C"> C) Space-based positioning<br>
+              <input type="radio" name="q5" value="D"> D) Interferometry<br>
+                </p>
+                </form>
+  
+  
+  
+            <button onclick="
+            answerQuizz();
+            " class="astro-button">Submit</button>
+  
+    </div>
+
+
+
+<footer id="footer-biology">
+  <div class="footer-container">
+    <p class="logo-text">The Foundation</p>
+    <i class="fa-solid fa-f logo-icon"></i>
+
+    <ul class="footer-list">
+      <li class="footer-list-list"><a href="#">Home</a></li>
+      <li class="footer-list-list"><a href="#">Courses</a></li>
+      <li class="footer-list-list"><a href="#">Contacts</a></li>
+
+    </ul>
+    </div>
+
+
+</footer>
+
+</body>
+</html>
