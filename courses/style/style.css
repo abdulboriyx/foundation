@@ -121,7 +121,12 @@
   background-position: center;
   
 }
-
+.geography-banner {
+  background-image: url('../course-img/geo-img/geo-banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .chemistry-header, .chemistry-banner-text {
   color: #000;
