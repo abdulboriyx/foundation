@@ -128,6 +128,13 @@
   background-position: center;
 }
 
+.history-banner {
+  background-image: url('../course-img/history-img/history-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .chemistry-header, .chemistry-banner-text {
   color: #000;
 }
