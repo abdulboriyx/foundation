@@ -148,6 +148,17 @@ textarea {
   padding: 20px;
   font-weight: 500;
 }
+.credit-class {
+   width: 70vw;
+   font-family: var(--default-font);
+   font-size: 14px;
+   color: #fff;
+   line-height: 1.2;
+   margin-left: 12vw;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow with 70% opacity */
+   padding: 20px;
+   font-weight: 500;
+}
 .quiz-text {
   /* padding: 10px 0px; */
   width: 70vw;
@@ -165,7 +176,7 @@ textarea {
   object-fit: cover;
   margin: 5px 0;
   margin-left: 12vw;
-  border: 1px solid #1f961f;
+  border: 1px solid #000;
   border-radius: 20px;
 }
 .period-img {
