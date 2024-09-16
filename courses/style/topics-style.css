@@ -165,7 +165,6 @@ textarea {
    color: #fff;
    line-height: 1.2;
    font-weight: 500;
-   padding: 5px;
    margin-left: 12vw;
 }
 .quiz-text {
@@ -184,7 +183,16 @@ textarea {
   height: 500px;
   object-fit: cover;
   margin: 5px 0;
-  margin-left: 12vw;
+  margin-left: 2vw;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+.virgin-img {
+  width: 900px;
+  height: 1300px;
+  object-fit: cover;
+  margin: 5px 0;
+  margin-left: 2vw;
   border: 1px solid #000;
   border-radius: 20px;
 }
