@@ -186,6 +186,16 @@ textarea {
   border: 1px solid #000;
   border-radius: 20px;
 }
+.inner-img {
+  width: 1000px;
+  height: 600px;
+  object-fit: cover;
+  margin: 5px 0px;
+  margin-left: 8vw;
+  border: 1px solid #05263e;
+  border-radius: 20px;
+}
+
 .virgin-img {
   width: 900px;
   height: 1300px;
