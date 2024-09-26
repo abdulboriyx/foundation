@@ -134,6 +134,13 @@
   background-size: cover;
   background-position: center;
 }
+.math-banner {
+  background-image: url('../course-img/math-img/math-banner.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
 
 .chemistry-header, .chemistry-banner-text {
   color: #000;
@@ -161,6 +168,7 @@
   font-size: 20px;
   margin-top: 10px;
 }
+
 .people-banner-img {
   width: 700px;
   height: 400px;
