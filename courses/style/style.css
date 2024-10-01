@@ -142,6 +142,13 @@
   
 }
 
+.philosophy-banner {
+  background-image: url('../course-img/phil-img/phil-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .chemistry-header, .chemistry-banner-text {
   color: #000;
 }
