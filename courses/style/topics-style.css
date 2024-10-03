@@ -318,41 +318,85 @@ textarea {
     opacity: 0.7;
   }
 
-  .astro-banner {
+  .astro-banner, .topic-banner {
     font-family: "EB Garamond", serif;
     color: #000;
     margin: 5px 0px;
     text-align: center;
-    font-size: 17px;
+    font-size: 22px;
   }
-  .astro-banner-img {
-    width: 370px;
-    height: 220px;
-    margin-left: -12px;
+  
+  
+  .topic-banner-img {
+    width: 300px;
+    height: 150px;
     border: 1px;
     border-radius: 15px;
+    margin-left: -5px;
+  }
 
+  .astro-earth-img, .topic-img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-left: 8px;
+  }
+  .inner-img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+    margin-left: 8px;
+    border: 1px solid #05263e;
+    border-radius: 20px;
+  }
+  
+  .virgin-img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+    margin: 5px 0;
+    margin-left: 8px;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+  .period-img {
+    width: 290px;
+    height: 190px;
+    object-fit: cover;
+    margin-left: 8px;
+    border-radius: 20px;
+    border: 1px solid #05263e;
   }
 
   .astro-topic, .topic-cover {
-    width: 350px;
+    width: 300px;
+    margin-left: 9px;
 
   }
   .astro-header {
     text-align: center;
     color: #fff;
-    font-size: 24px;
+    font-size: 16px;
     opacity: 0.8;
     font-family: var(--default-font);
     margin-top: 15px;
   }
-  .astro-topic-text {
-    width: 330px;
+  .topic-header {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;  
+    font-family: var(--default-font);
+    margin-top: 15px;
+  }
+  .astro-topic-text, .topic-cover-text {
+    width: 290px;
     font-family: var(--default-font);
     font-size: 18px;
     color: #fff;
+    margin-left: -5px;
     line-height: 1.2;
-    margin-left: -10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Black shadow with 70% opacity */
     font-weight: 500;
   }
@@ -364,10 +408,11 @@ textarea {
     border: 1px solid;
     border-radius: 20px;
   }
-  .astro-video {
-    width: 330px;
+  .astro-video, .topic-video {
+    width: 290px;
     border-radius: 20px;
-    margin-left: 2vw;
+    height: 190px;
+    margin-left: 8px;
   }
 
 
